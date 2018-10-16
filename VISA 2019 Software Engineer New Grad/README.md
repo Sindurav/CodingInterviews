@@ -1,4 +1,4 @@
-# Got this problems in HACKERRANK challenge
+# Got these problems in HACKERRANK challenge
 
 
 ## 1. Maximum Streak

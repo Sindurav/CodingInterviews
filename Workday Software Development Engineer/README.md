@@ -1,4 +1,4 @@
-# Got this problems in HACKERRANK challenge
+# Got this problem in HACKERRANK challenge
 
 
 ## 1. Array Reduction
