@@ -23,7 +23,7 @@ The function must return the minimum total cost of reducing the input array to o
 `reductionCost` has following parameters:
 num[num[0], ..., num[n-1]]: an array of integers.
 
-Constraints
+Constraints:  
 - 2 <= n <= 10000.
 - 0 <= num[i] <= 100000
 
@@ -39,7 +39,6 @@ Constraints
 		Anna makes the following moves to reduce the num = [1, 2, 3]:
 		1. Removes 1 and 2 at cost1 = 1+2 = 3, resulting in num1 = [3, 3]
 		1. Removes 3 and 3 at cost2 = 3+3 = 6, resulting in num2 = [6]
-		
 		When we sum up the cost at each reduction, we get 3+6 = 9
 		
 		Sample Input 1:
