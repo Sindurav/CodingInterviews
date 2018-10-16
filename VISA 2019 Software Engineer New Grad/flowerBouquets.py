@@ -1,3 +1,4 @@
+
 #
 # Complete the 'flowerBouquets' function below.
 #
@@ -32,11 +33,11 @@ def flowerBouquets(p, q, s):
     for i in range(len(s)):
         
         if s[i:i+3] == type1:
-			jobs.append([i, i+2, p])
+	        jobs.append([i, i+2, p])
         else:
-			cur = s[i: i+2]
+		    cur = s[i: i+2]
             if cur == "01" or cur == "10":
-				jobs.append([i, i+1, q])
+		    jobs.append([i, i+1, q])
             
     if not jobs:
         return 0 
