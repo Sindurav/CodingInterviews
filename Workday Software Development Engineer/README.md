@@ -23,7 +23,7 @@ This is just one set of possible moves. For instance, she could have started wit
 Function Description:
 Complete the function `reductionCost`. The function must return minimum total cost of reducing the input array to one element.
 
-reductionCost has the following parameters:
+reductionCost has the following parameters:   
 num[num[0], ..., num[n-1]]: an array of integers
 
 Constraints
