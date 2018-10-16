@@ -39,7 +39,7 @@ Constraints
 		9
 		
 		Explanation 0:
-		Anna makes the following moves to reduce the array num = [1, ,2, 3]:
+		Anna makes the following moves to reduce the array num = [1, 2, 3]:
 		1. Removes 1 and 2 at cost1 = 1+2 = 3, resulting in num1 = [3, 3].
 		2. Removes 3 and 3 at cost2 = 3+3 = 6, resulting in num2 = [6].
 		
