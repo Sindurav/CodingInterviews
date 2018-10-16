@@ -7,16 +7,16 @@
 # 2. STRING_ARRAY data
 #
 
+
 def maxStreak(m, data):
     # Write your code here
-	curStreak = maxStreak = 0
+    curStreak = maxStreak = 0
     for day in data:
         for i in range(m):
             if day[i] != "Y":
-		curStreak = 0
-                break
-	else:
-	    curStreak += 1		
-	maxStreak = max(maxStreak, curStreak)
-    
+                curStreak = 0
+            break
+        else:
+            curStreak += 1
+    maxStreak = max(maxStreak, curStreak)
     return maxStreak
