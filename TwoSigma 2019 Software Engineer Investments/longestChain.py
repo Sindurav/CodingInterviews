@@ -11,7 +11,7 @@ def longestChain(words):
     # Write your code here
     if not words:
         return 0
-    
+
     words = sorted(words, key=len)
     longest = 0
     mapping = defaultdict(int)
