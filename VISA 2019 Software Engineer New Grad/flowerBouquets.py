@@ -7,6 +7,8 @@
 # 2. INTEGER q
 # 3. STRING s
 #
+
+
 def findMaxProfit(jobs):
     tabulation = []
     for i in range(len(jobs)):

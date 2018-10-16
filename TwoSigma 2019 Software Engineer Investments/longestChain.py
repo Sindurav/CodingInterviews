@@ -7,6 +7,7 @@
 
 from collections import defaultdict
 
+
 def longestChain(words):
     # Write your code here
     if not words:

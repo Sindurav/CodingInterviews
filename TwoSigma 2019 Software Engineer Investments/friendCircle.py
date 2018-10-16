@@ -1,5 +1,6 @@
 # Complete the friendCircles function below.
 
+
 def friendCircles(friends):
     sets = []
     for i in range(0, len(friends)):
@@ -14,6 +15,7 @@ def friendCircles(friends):
     for i in range(0, len(friends)):
         res.add(make_sets(i, sets))
     return len(res)
+
 
 def make_sets(node, sets):
     while sets[node] != node:
