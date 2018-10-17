@@ -80,7 +80,6 @@ Constraints
 		2
 
 
-# Got RUNTIME ERROR for the current solution
 ## 3. Flower Bouquets 
 ----
 Lara owns a flower shop, where she sells only two types of flower bouquets:
