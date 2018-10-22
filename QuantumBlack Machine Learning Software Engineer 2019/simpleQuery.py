@@ -1,21 +1,15 @@
-#
-# Complete the 'counts' function below.
-#
-
-
-def bin_search(array, target):
-    left = 0
-    ryt = len(array)-1
-    while left < len(array) and ryt >= 0 and left <= ryt:
+# Complete the counts function below.
+def bin_search(arr, target):
+    left, ryt = 0, len(arr)-1
+    while left<len(arr) and ryt>= 0 and left<=ryt:
         mid = (left+ryt)//2
         if arr[mid] == target:
             return mid+1
-        elif arr[mid] > target:
+        elif arr[mid]>target:
             ryt = mid-1
         else:
             left = mid+1
     return left
-
 
 def counts(nums, maxs):
     nums = sorted(nums)
@@ -23,7 +17,7 @@ def counts(nums, maxs):
     for maxi in maxs:
         count = bin_search(nums, maxi)
         results.append(count)
-    return results
+    return results    
 
 
 arr = [1, 2, 4, 4, 7]
