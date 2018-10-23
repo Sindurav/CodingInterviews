@@ -1,11 +1,11 @@
 ## Interview Description
 ----
-- At this point of time I have cleared 3 interview round of Two Sigma.  
+- At this point of time I have cleared three interview rounds of Two Sigma.  
 
 ## Round 1 (Hackerrank Online Assessment)
 ---
 - 1st round was hackerank round.
-- I got 2 question which I had to solve in 90 minutes.
+- I got 2 questions which I had to solve in 90 minutes.
 
 
 ## Round 2 (HR Phone Interview)
