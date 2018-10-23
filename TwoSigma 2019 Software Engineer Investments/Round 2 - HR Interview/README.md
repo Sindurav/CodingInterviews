@@ -1,4 +1,4 @@
 ## Round 2
 ---
-- 2nd round was HR telephonic round
-- She asked about my background
+- 2nd round was HR telephonic round.
+- HR asked me about my background.

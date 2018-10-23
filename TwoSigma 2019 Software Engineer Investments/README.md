@@ -10,13 +10,13 @@
 
 ## Round 2 (HR Phone Interview)
 ---
-- 2nd round was HR telephonic round
-- She asked about my background
+- 2nd round was HR telephonic round.
+- HR asked me about my background.
 
 ## Round 3 (Technical Phone Interview)
 --- 
-- 3rd round is a technical phone interview
-- The interviewer asked me about Computer Science questions in the 1st 30 minutes
-- In the next 30 minutes I had to solve a coding question on Hackerrank's CodePair
+- 3rd round is a technical phone interview.
+- The interviewer asked me about Computer Science questions in the 1st 30 minutes.
+- In the next 30 minutes I had to solve a coding question on Hackerrank's CodePair.
 
 
