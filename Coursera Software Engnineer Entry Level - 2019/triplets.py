@@ -12,6 +12,7 @@ def bin_search(arr, target, start):
 
 
 def tripletsSorting(nums, t):
+    # TimeComplexity = O((n^2)logn)
     nums.sort()
     count = 0
     for i in range(len(nums)):
@@ -29,6 +30,7 @@ def tripletsSorting(nums, t):
 
 
 def triplets(arr, t):
+    # TimeComplexity = O((n^3))
     count = 0
     sets = set([])
     for i in range(len(arr)):
@@ -47,6 +49,7 @@ def triplets(arr, t):
 
 
 def tripletsSortWithPruning(arr, t):
+    # TimeComplexity = O((n^3))
     count = 0
     arr = sorted(arr)
     results = []
