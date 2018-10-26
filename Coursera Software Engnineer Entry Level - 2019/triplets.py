@@ -20,10 +20,10 @@ def tripletsSorting(nums, t):
             target = t - nums[i] - nums[j]
             if target < 0:
                 break
-            k = bin_search(arr, target, j+1)
+            k = bin_search(nums, target, j+1)
             if k < len(nums) and nums[k] <= target:
                 count += (k-j)
-            elif k < len(nums):
+            elif k <= len(nums):
                 count += (k-j-1)
     print(count)
     return count
@@ -66,7 +66,7 @@ def tripletsSortWithPruning(arr, t):
                     count += 1
                 else:
                     break
-    # print("results =", results)
+    print("results =", results)
     print(count)
     return count
 
@@ -79,15 +79,15 @@ tripletsSortWithPruning(array, threshold)
 print("============")
 
 array = [1, 2, 3, 4, 6, 9]
-threshold = 11
+threshold = 8
 tripletsSorting(array, threshold)
 triplets(array, threshold)
 tripletsSortWithPruning(array, threshold)
 print("============")
 
 
-array = [1, 2, 3, 4, 6]
-t = 11
+array = [1, 2, 3, 4, 6, 5]
+threshold = 11
 tripletsSorting(array, threshold)
 triplets(array, threshold)
 tripletsSortWithPruning(array, threshold)
