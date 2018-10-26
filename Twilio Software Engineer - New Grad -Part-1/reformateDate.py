@@ -14,3 +14,8 @@ def reformateDate(dates):
         res = year+"-"+month2num[month]+"-"+days2num[day]
         results.append(res)
     return results
+
+
+date_list = ["1st Mar 1984", "2nd Feb 2013", "4th Apr 1990"]
+correct_format = reformateDate(date_list)
+print(correct_format)
