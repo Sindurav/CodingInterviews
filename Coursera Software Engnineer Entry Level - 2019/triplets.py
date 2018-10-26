@@ -15,12 +15,17 @@ def tripletsSorting(arr, t):
     arr = sorted(arr)
     results = []
     for i in range(len(arr)):
-        j, k = i + 1, len(arr) - 1
-        while j < k:
-            currentSum = arr[i] + arr[j] + arr[k]
-            if currentSum <= t:
-                results.append([arr[i], arr[j], arr[k]])
-                count += 1
-            k -= 1
-    print(results)
+        if arr[i] >= t:
+            break
+        for j in range(i+1, len(arr)):
+            if arr[i] + arr[j] >= t:
+                break
+            for k in range(j+1, len(arr)):
+                currentSum = arr[i] + arr[j] + arr[k]
+                if currentSum <= t:
+                    results.append([arr[i], arr[j], arr[k]])
+                    count += 1
+                else:
+                    break
+    print("results =", results)
     return count
