@@ -31,32 +31,32 @@ The first line contains the string `s`.
 The second line contains the string `x`.
  
  
-		**Sample Input 0:**
+		Sample Input 0:
 		juliasamanthantjulia
 		ant
 		
-		**Sample Output 0:**
+		Sample Output 0:
 		8
 		
-		**Explanation 0:**
+		Explanation 0:
 		
-		**Sample Input 1:**
+		Sample Input 1:
 		juliasamanthhasamanthajulia
 		has
 		
-		**Sample Output 1:**
+		Sample Output 1:
 		11
 		
-		**Explanation 1:**
+		Explanation 1:
 		
-		**Sample Input 2:**
+		Sample Input 2:
 		juliasamanthhasamanthajulia
 		ant*as
 		
-		**Sample Output 2:**
+		Sample Output 2:
 		8
 		
-		**Explanation 2:**
+		Explanation 2:
 		
 		
 ## 2. Longest Subarray
