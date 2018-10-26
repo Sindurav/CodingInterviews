@@ -1,90 +1,100 @@
 # Got these problems in HACKERRANK challenge
 
 
-## 1. Sub-palindrome
+## 1. Hosts and Total Number of Requests
 -----
-A palindrome is a string that reads the same forward and backward e.g. `121` or `tacocat`.  
-A substring is a contiguous subset of characters in a string.  
-Given a string `s`, how many distinct substring of s are palindrome.   
+In this challenge, write a program to analyze a log file and summarize the results.   
+Given a text file of an http requests log, list the number of requests from each host.  
+Output should be directed to a file as described in the Program Description below.
 
-For example, `s = mokkari`.   
-Its distinct palindromic substrings are `[m, a, k, r, i, kk, akka]`.
+The format of the log file, a text file with a `.txt` extension, follows.     
+Each line contains a single log record with the following columns (in order):     
+1. The hostname of the host making the request.    
+2. This column's value are missing and were replaced by hyphen.   
+3. This column's value are missing and were replaced by hyphen.   
+4. A timestamp enclosed in square brackets following the format [DD/mm/YYY:HH:MM:SS-0400].   
+5. The request, enclosed in quotes(eg, "GET/images/NASA-logosmall.gif HTTP/1.0").  
+6. The HTTP response code.  
+7. The total number of bytes sent in the response.  
+
 
 Function Description:
-Complete the function `palindrome  in the editor below.  
-The function must return the number of distinct palindromes as in integer.
+Your function must create a unique list of hostnames with their number of requests and output to a file names records_filename where filename is names `records_filename` where `filename` is replaced with input `filename`.   
+Each `hostname` should be followed by a space then the number of requests and a newline.  
+Order doesn't matter.
+  
 
-
-`palindrome` has the following parameter(s):   
-   s: a string.
    
 Constraints:  
- - 1 <= |s| <= 5000 
- - Each character `s[i]` belongs `ascii[a-z]`
-
- 
+ - The log file has a maximum pf 200000 lines of records
  
 		Sample Input 0:
-		s = aabaa
+		host_access_log_00.txt
 		
 		Sample Output 0:
-		5
+		unicomp6.unicompt.net 4
+		burger.letters.com 3
+		d104.aa.net 3
 		
 		Explanation 0:
-		Palindromic substring are [a, aa, aabaa, aba, b]
-		The substring "a" occurs 4 times, but is counted only once.  
-		Similarly, "aa" occurs twice but counts as one distinct palindrome.
-	
+		The log file hosts_access_log_00.txt contains the following log records;
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:06 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+		burger.letters.com - - [01/JUL/1995:00:00:11 - 0400] "GET /shuttle/countdown/liftoff.html HTTP/1.0" 304 0
+		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 304 0
+		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 0
+		d104.aa.net - - [01/JUL/1995:00:00:13 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 786 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 1204 
+		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
 
-## 2. Triplets
+
+## 2. Hosts and Total Number of Requests
 -----
-Given an array of `n` distinct integers, `d = [d[0], d[1], ..., d[n-1]]`, and an integer threshold `t`, how many `(a, b, c)` index triplets exist that satisfy both of the followings conditions?
-- `d[a] < d[b] < d[c]`
-- `d[a] + d[b] + d[c] <= t`
+In this challenge, write a program to analyze a log file and summarize the results.   
+Given a text file of an http requests log, list the number of requests from each host.  
+Output should be directed to a file as described in the Program Description below.
 
-For example, given the array `d = [1, 2, 3, 4, 5]` and threshold `t = 8`, the following triplets satisfy the constraints:   
+The format of the log file, a text file with a `.txt` extension, follows.     
+Each line contains a single log record with the following columns (in order):     
+1. The hostname of the host making the request.    
+2. This column's value are missing and were replaced by hyphen.   
+3. This column's value are missing and were replaced by hyphen.   
+4. A timestamp enclosed in square brackets following the format [DD/mm/YYY:HH:MM:SS-0400].   
+5. The request, enclosed in quotes(eg, "GET/images/NASA-logosmall.gif HTTP/1.0").  
+6. The HTTP response code.  
+7. The total number of bytes sent in the response.  
 
-		(1, 2, 3) => 1 + 2 + 3 = 6 <= 8   
-		(1, 2 ,4) => 1 + 2 + 4 = 7 <= 8   
-		(1, 2, 5) => 1 + 2 + 5 = 8 <= 8   
-		(1, 3, 4) => 1 + 3 + 4 = 8 <= 8   
-		
+
 Function Description:
-Complete the function `triplets`  in the editor below.  
-The function must return a long integer denoting the number of triplets of (a, b, c) triplets satisfying the given conditions.     
+Your function must create a unique list of hostnames with their number of requests and output to a file names records_filename where filename is names `records_filename` where `filename` is replaced with input `filename`.   
+Each `hostname` should be followed by a space then the number of requests and a newline.  
+Order doesn't matter.
+  
 
-
-`triplets` has the following parameter(s):      
-   t: an integer threshold.  
-   d[d[0], ..., d[n-1]]: an array of integers.  
    
 Constraints:  
- - 1 <= n <= 10000 
- - 0 <= d[i] < 10^9
- - 0 < t < 3x10^9
+ - The log file has a maximum pf 200000 lines of records
  
-Input Format:
-Input from stdin will be processes as follows and passed to the function
-The first line contains the integer `t`.
-The second line contains an integer `n`, the size og the array d.
-Each of the next `n` lines contains an integer `d[i]` where 0 <= i <= n.
-
-
 		Sample Input 0:
-		8
-		5
-		1
-		2
-		3
-		4
-		5
+		host_access_log_00.txt
 		
 		Sample Output 0:
-		3
+		unicomp6.unicompt.net 4
+		burger.letters.com 3
+		d104.aa.net 3
 		
 		Explanation 0:
-		Given t=8 and d = [1, 2, 3, 4, 6] the following triplets satisfy the conditions:
-		1. (0, 1, 2) =>. 1 + 2 + 3 <= 8
-		2. (0, 1, 3) =>. 1 + 2 + 4 <= 8
-		3. (0, 2, 3) =>. 1 + 3 + 4 <= 8
-	
+		The log file hosts_access_log_00.txt contains the following log records;
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:06 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+		burger.letters.com - - [01/JUL/1995:00:00:11 - 0400] "GET /shuttle/countdown/liftoff.html HTTP/1.0" 304 0
+		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 304 0
+		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 0
+		d104.aa.net - - [01/JUL/1995:00:00:13 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 786 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 1204 
+		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
+
