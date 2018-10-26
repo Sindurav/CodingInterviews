@@ -61,8 +61,10 @@ In a revised game of hopscotch a child is trying to cross a line of tiles with a
 - The game is won if the child can reach at the end of the string, taking jumps with minimum required power. The power of a jump is given by the number of tiles in the path of a jump as indicated in the diagram below. In 10101, the power of the jump from beginning to the first tile is 1 but from the first tile to the third tile is 2, and so on
 
 Find the minimum power the child's jump should have in order to win the game for different binary strings.
-NoteL The value on the last tile determines which tiles to jump on. This is because all tiles landed on mush have the same value and the child must land on the last tile to complete the fame. In one jump, the child can jump to the right, any distance from 1 to the value of the power of her jump.
+Note: The value on the last tile determines which tiles to jump on. This is because all tiles landed on mush have the same value and the child must land on the last tile to complete the fame. In one jump, the child can jump to the right, any distance from 1 to the value of the power of her jump.
 
+[image1]: ./images/BinaryJumpsExample.JPG "BinaryJumpsExample"
+![BinaryJumpsExample][image1]
 
 Constraints
 - 1 <= Length of game <= 100000
@@ -88,7 +90,12 @@ Lara owns a flower shop, where she sells only two types of flower bouquets:
 
 Lara grows these flowers in her own garden in a single tow. Consider the row as a one-dimensional array, here each cell either contains a rose or a cosmos. For example array 001101011, here 0 indicates rose and 1 indicates cosmos.
 
-Lara follows an important rule when she makes the bouquets: she makes each bouquet with only conse cutive flowers fromm the array. For example in a bouquet, the flower from consecutive (i, i+1, and i+2) in the array can be present, but not from non-consecutive indices (i and i+2) in the array above, Lara can not make any bouquets of type 1 but she can make 3 bouquets of type 2
+[image2]: ./images/FlowerBouquets.JPG "FlowerBouquets"
+![FlowerBouquets][image2]
+
+
+Lara follows an important rule when she makes the bouquets: she makes each bouquet with only consecutive flowers from the array.   
+For example in a bouquet, the flower from consecutive (i, i+1, and i+2) in the array can be present, but not from non-consecutive indices (i and i+2) in the array above, Lara can not make any bouquets of type 1 but she can make 3 bouquets of type 2
 
 Now she wonder what is the maximum profit she can make if she makes these bouquets optimally. You are given a binary string representing her garden row. calculate the maximum profit Lara can make. Remember that it is not necessary to use every flower
 
