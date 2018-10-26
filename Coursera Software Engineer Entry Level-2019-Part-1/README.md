@@ -15,8 +15,8 @@ For example, if `s = xabcdey` and x = `ab*de`, the index is 1.
 
 Function Description:
 Complete the function `firstOccurence` in the editor below.   
-The function must return an integer denoting the zero-bassed index of the first occurence of string `x` in `s`.  
-If `x` is not in `s` return -1 instead.  
+The function must return an integer denoting the zero-based index of the first occurrence of string `x` in `s`.  
+If `x` is not in `s` return `-1` instead.  
 
 `firstOccurence` has the following parameter(s):   
    `s`: a string of lowercase letters.
