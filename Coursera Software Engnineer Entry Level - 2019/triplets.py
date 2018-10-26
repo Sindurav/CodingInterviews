@@ -1,10 +1,10 @@
 def bin_search(arr, target, start):
     left, ryt = start, len(arr)-1
-    while left<len(arr) and ryt>= start and left<=ryt:
+    while left<len(arr) and ryt >= start and left <= ryt:
         mid = (left+ryt)//2
         if arr[mid] == target:
             return mid
-        elif arr[mid]>target:
+        elif arr[mid] > target:
             ryt = mid-1
         else:
             left = mid+1
@@ -13,20 +13,20 @@ def bin_search(arr, target, start):
 
 def tripletsSorting(nums, t):
     nums.sort()
-    results = []
     count = 0
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
             target = t - nums[i] - nums[j]
-            if target<0:
+            if target < 0:
                 break
             k = bin_search(arr, target, j+1)
-            if k<len(nums) and nums[k]<=target:
+            if k < len(nums) and nums[k] <= target:
                 count += (k-j)
-            elif k<len(nums):
+            elif k < len(nums):
                 count += (k-j-1)
     print(count)
     return count
+
 
 def triplets(arr, t):
     count = 0
@@ -45,6 +45,7 @@ def triplets(arr, t):
     print(count)
     return count
 
+
 def tripletsSortWithPruning(arr, t):
     count = 0
     arr = sorted(arr)
@@ -62,29 +63,29 @@ def tripletsSortWithPruning(arr, t):
                     count += 1
                 else:
                     break
-    #print("results =", results)
+    # print("results =", results)
     print(count)
     return count
 
 
-arr = [1, 2, 3, 4, 5]
+array = [1, 2, 3, 4, 5]
 threshold = 8
-tripletsSorting(arr, threshold)
-triplets(arr, threshold)
-tripletsSortWithPruning(arr, threshold)
+tripletsSorting(array, threshold)
+triplets(array, threshold)
+tripletsSortWithPruning(array, threshold)
 print("============")
 
-arr = [1, 2, 3, 4, 6, 9]
+array = [1, 2, 3, 4, 6, 9]
 threshold = 11
-tripletsSorting(arr, threshold)
-triplets(arr, threshold)
-tripletsSortWithPruning(arr, threshold)
+tripletsSorting(array, threshold)
+triplets(array, threshold)
+tripletsSortWithPruning(array, threshold)
 print("============")
 
 
-arr = [1, 2, 3, 4, 6]
-threshold = 11
-tripletsSorting(arr, threshold)
-triplets(arr, threshold)
-tripletsSortWithPruning(arr, threshold)
+array = [1, 2, 3, 4, 6]
+t = 11
+tripletsSorting(array, threshold)
+triplets(array, threshold)
+tripletsSortWithPruning(array, threshold)
 print("============")
