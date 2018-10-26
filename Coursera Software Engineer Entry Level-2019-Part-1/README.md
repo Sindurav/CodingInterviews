@@ -8,7 +8,7 @@ We define the following:
 - String `x` consists of lowercase letters and may also contain a single wild-card character `*`, that represents any one character.   
 
 Given `s` and `x`, we want to know the zero-based index of the first occurrence of `x` in `s`. 
-For example, if `s = xabcdey` and x = `ab*de`, the index is 1.   
+For example, if `s = xabcdey` and x = `ab*de`, the index is `1`.   
 
 [image1]: ./images/Q1E1.JPG "Question 1 Example 1"
 ![Question 1 Example 1][image1]
