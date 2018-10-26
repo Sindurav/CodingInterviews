@@ -41,7 +41,8 @@ The second line contains the string `x`.
 		Sample Output 0:
 		8
 		
-		Explanation 0:
+		Explanation 0:   
+		
 [image2]: ./images/Q1E2.JPG "Question 1 Example 2"
 ![Question 1 Example 2][image2]
 		
@@ -52,7 +53,8 @@ The second line contains the string `x`.
 		Sample Output 1:
 		11
 		
-		Explanation 1:
+		Explanation 1:    
+		
 [image3]: ./images/Q1E3.JPG "Question 1 Example 3"
 ![Question 1 Example 3][image3]
 		
@@ -64,7 +66,8 @@ The second line contains the string `x`.
 		Sample Output 2:
 		8
 		
-		Explanation 2:
+		Explanation 2:   
+		
 [image4]: ./images/Q1E4.JPG "Question 1 Example 4"
 ![Question 1 Example 4][image4]
 		
