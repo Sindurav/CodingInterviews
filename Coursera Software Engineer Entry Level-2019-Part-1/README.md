@@ -10,6 +10,9 @@ We define the following:
 Given `s` and `x`, we want to know the zero-based index of the first occurrence of `x` in `s`. 
 For example, if `s = xabcdey` and x = `ab*de`, the index is 1.   
 
+[image1]: ./images/Q1E1.JPG "Question 1 Example 1"
+![Question 1 Example 1][image1]
+
 Function Description:
 Complete the function `firstOccurence` in the editor below.   
 The function must return an integer denoting the zero-bassed index of the first occurence of string `x` in `s`.  
@@ -39,6 +42,8 @@ The second line contains the string `x`.
 		8
 		
 		Explanation 0:
+		[image2]: ./images/Q1E2.JPG "Question 1 Example 2"
+		![Question 1 Example 2][image2]
 		
 		Sample Input 1:
 		juliasamanthhasamanthajulia
@@ -48,6 +53,9 @@ The second line contains the string `x`.
 		11
 		
 		Explanation 1:
+		[image3]: ./images/Q1E3.JPG "Question 1 Example 3"
+		![Question 1 Example 3][image3]
+		
 		
 		Sample Input 2:
 		juliasamanthhasamanthajulia
@@ -57,6 +65,9 @@ The second line contains the string `x`.
 		8
 		
 		Explanation 2:
+		[image4]: ./images/Q1E4.JPG "Question 1 Example 4"
+		![Question 1 Example 4][image4]
+		
 		
 		
 ## 2. Longest Subarray
