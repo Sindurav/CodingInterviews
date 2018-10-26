@@ -68,36 +68,35 @@ Input from stdin will be processes as follows and passed to the function
 The first line contains a string `s`.
 The second line contains a string `t`.
 
-		Sample Input 0:
-		I am using HackerRank to improve programming
-		am HackerRank to improve
-		
-		Sample Output 0:
-		I
-		using
-		programming
-		
-		Explanation 0:
-		The missing words are:
-		1. I
-		2. using
-		3. programming
-		
-		We add these words in order to the array ["I", "using", "programming"], then return this array as our answer. 
-		
-		Sample Input 1:
-		I love programming
-		programming
-		
-		Sample Output 1:
-		I
-		love
-		
-		Explanation 1:
-		The missing words are:
-		1. I
-		2. love
-		
-		We add these words in order to the array ["I", "love"], then return this array as our answer. 
-		
+	Sample Input 0:
+	I am using HackerRank to improve programming
+	am HackerRank to improve
+	
+	Sample Output 0:
+	I
+	using
+	programming
+	
+	Explanation 0:
+	The missing words are:
+	1. I
+	2. using
+	3. programming
+	
+	We add these words in order to the array ["I", "using", "programming"], then return this array as our answer. 
+	
+	Sample Input 1:
+	I love programming
+	programming
+	
+	Sample Output 1:
+	I
+	love
+	
+	Explanation 1:
+	The missing words are:
+	1. I
+	2. love
+	
+	We add these words in order to the array ["I", "love"], then return this array as our answer. 
 	
