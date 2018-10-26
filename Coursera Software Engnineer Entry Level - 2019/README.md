@@ -43,10 +43,10 @@ Given an array of `n` distinct integers, `d = [d[0], d[1], ..., d[n-1]]`, and an
 - d[a] + d[b] + d[c] <= t
 
 For example, given the array `d = [1, 2, 3, 4, 5]` and threshold `t = 8`, the following triplets satisfy the constraints:
-		()
-		()
-		()
-		()
+		(1, 2, 3) => 1 + 2 + 3 = 6 <= 8
+		(1, 2 ,4) => 1 + 2 + 4 = 7 <= 8
+		(1, 2, 5) => 1 + 2 + 5 = 8 <= 8
+		(1, 3, 4) => 1 + 3 + 4 = 8 <= 8
 		
 Function Description:
 Complete the function `triplets`  in the editor below.  
