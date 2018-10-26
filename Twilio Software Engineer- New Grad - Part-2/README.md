@@ -13,7 +13,7 @@ Each line contains a single log record with the following columns (in order):
 2. This column's value are missing and were replaced by hyphen.   
 3. This column's value are missing and were replaced by hyphen.   
 4. A timestamp enclosed in square brackets following the format [DD/mm/YYY:HH:MM:SS-0400].   
-5. The request, enclosed in quotes(eg, "GET/images/NASA-logosmall.gof HTTP/1.0").  
+5. The request, enclosed in quotes(eg, "GET/images/NASA-logosmall.gif HTTP/1.0").  
 6. The HTTP response code.  
 7. The total number of bytes sent in the response.  
 
@@ -37,7 +37,18 @@ Constraints:
 		d104.aa.net 3
 		
 		Explanation 0:
-		The log file hosts_access_log_00.txt contains the following log records.
+		The log file hosts_access_log_00.txt contains the following log records;
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:06 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+		burger.letters.com - - [01/JUL/1995:00:00:11 - 0400] "GET /shuttle/countdown/liftoff.html HTTP/1.0" 304 0
+		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 304 0
+		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 0
+		d104.aa.net - - [01/JUL/1995:00:00:13 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 786 
+		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 1204 
+		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
+
 
 ## 2. Missing Words
 -----
