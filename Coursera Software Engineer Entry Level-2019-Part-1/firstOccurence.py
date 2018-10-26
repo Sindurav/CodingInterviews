@@ -7,6 +7,7 @@
 #  2. STRING x
 #
 
+
 def firstOccurrence(s, x):
     # Write your code here
     xi = 0
