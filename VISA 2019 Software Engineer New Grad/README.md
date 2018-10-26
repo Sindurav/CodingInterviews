@@ -84,7 +84,7 @@ Constraints
 ----
 Lara owns a flower shop, where she sells only two types of flower bouquets:
 - Type 1: the first type of bouquet contains three roses and costs p dollars.
-- Type 2L The second type of bouquet contains one cosmos and one rose and costs q dollars.
+- Type 2: The second type of bouquet contains one cosmos and one rose and costs q dollars.
 
 Lara grows these flowers in her own garden in a single tow. Consider the row as a one-dimensional array, here each cell either contains a rose or a cosmos. For example array 001101011, here 0 indicates rose and 1 indicates cosmos.
 
