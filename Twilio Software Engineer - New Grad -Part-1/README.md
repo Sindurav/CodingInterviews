@@ -28,30 +28,30 @@ Constraints:
  - The given dates are guaranteed to be valid so no error handling is necessary. 
  - 1 <= n <= 10000  
  
-		Sample Input 0:
-		10
-		20th Oct 2052
-		6th Jun 1933
-		26th May 1960
-		20th Sep 1958
-		16th Mar 2068
-		25th May 1912
-		16th Dec 2018
-		26th Dec 2061
-		4th Nov 2030
-		28th Jul 1963
-		
-		Sample Output 0:
-		2052-10-20
-		1933-06-06
-		1960-05-26
-		1958-09-20
-		2068-03-16
-		1912-05-25
-		2018-12-16
-		2061-12-26
-		2030-11-04
-		1963-07-28
+	Sample Input 0:
+	10
+	20th Oct 2052
+	6th Jun 1933
+	26th May 1960
+	20th Sep 1958
+	16th Mar 2068
+	25th May 1912
+	16th Dec 2018
+	26th Dec 2061
+	4th Nov 2030
+	28th Jul 1963
+	
+	Sample Output 0:
+	2052-10-20
+	1933-06-06
+	1960-05-26
+	1958-09-20
+	2068-03-16
+	1912-05-25
+	2018-12-16
+	2061-12-26
+	2030-11-04
+	1963-07-28
 		
 
 
@@ -82,24 +82,24 @@ Order doesn't matter.
 Constraints:  
  - The log file has a maximum pf 200000 lines of records
  
-		Sample Input 0:
-		host_access_log_00.txt
-		
-		Sample Output 0:
-		unicomp6.unicompt.net 4
-		burger.letters.com 3
-		d104.aa.net 3
-		
-		Explanation 0:
-		The log file hosts_access_log_00.txt contains the following log records;
-		unicomp6.unicompt.net - - [01/JUL/1995:00:00:06 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
-		burger.letters.com - - [01/JUL/1995:00:00:11 - 0400] "GET /shuttle/countdown/liftoff.html HTTP/1.0" 304 0
-		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 304 0
-		burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 0
-		d104.aa.net - - [01/JUL/1995:00:00:13 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
-		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
-		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 786 
-		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 1204 
-		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
-		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
+	Sample Input 0:
+	host_access_log_00.txt
+	
+	Sample Output 0:
+	unicomp6.unicompt.net 4
+	burger.letters.com 3
+	d104.aa.net 3
+	
+	Explanation 0:
+	The log file hosts_access_log_00.txt contains the following log records;
+	unicomp6.unicompt.net - - [01/JUL/1995:00:00:06 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+	burger.letters.com - - [01/JUL/1995:00:00:11 - 0400] "GET /shuttle/countdown/liftoff.html HTTP/1.0" 304 0
+	burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 304 0
+	burger.letters.com - - [01/JUL/1995:00:00:12 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 0
+	d104.aa.net - - [01/JUL/1995:00:00:13 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985 
+	unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+	unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 786 
+	unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 1204 
+	d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
+	d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
 

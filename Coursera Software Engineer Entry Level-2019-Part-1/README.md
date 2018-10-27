@@ -34,39 +34,39 @@ The first line contains the string `s`.
 The second line contains the string `x`.
  
  
-		Sample Input 0:
-		juliasamanthantjulia
-		ant
-		
-		Sample Output 0:
-		8
-		
-		Explanation 0:   
+	Sample Input 0:
+	juliasamanthantjulia
+	ant
+	
+	Sample Output 0:
+	8
+	
+	Explanation 0:   
 		
 [image2]: ./images/Q1E2.JPG "Question 1 Example 2"
 ![Question 1 Example 2][image2]
 		
-		Sample Input 1:
-		juliasamanthhasamanthajulia
-		has
-		
-		Sample Output 1:
-		11
-		
-		Explanation 1:    
+	Sample Input 1:
+	juliasamanthhasamanthajulia
+	has
+	
+	Sample Output 1:
+	11
+	
+	Explanation 1:    
 		
 [image3]: ./images/Q1E3.JPG "Question 1 Example 3"
 ![Question 1 Example 3][image3]
 		
 		
-		Sample Input 2:
-		juliasamanthhasamanthajulia
-		ant*as
-		
-		Sample Output 2:
-		8
-		
-		Explanation 2:   
+	Sample Input 2:
+	juliasamanthhasamanthajulia
+	ant*as
+	
+	Sample Output 2:
+	8
+	
+	Explanation 2:   
 		
 [image4]: ./images/Q1E4.JPG "Question 1 Example 4"
 ![Question 1 Example 4][image4]
@@ -112,36 +112,35 @@ Output Format:
 The function must return the length of the longest subarray having a sum less than or equal to `k`.  
 This is printed to stdout by locked stub coede in the editor.
 
-		Sample Input 0:
-		3
-		1
-		2
-		3
-		4
-		
-		Sample Output 0:
-		2
-		
-		Explanation 0:
-		The subarrays of [1, 2, 3] having elements that sum to a number <= (k = 4) are [1], [2], [3] and [1, 2].  
-		The longest of these is [1, 2], which has a length of 2.  
-		Thus, we return 2 as our answer.
-		
-		Sample Input 1:
-		4
-		3
-		1
-		2
-		1
-		4
-		
-		Sample Output 0:
-		3
-		
-		Explanation 0:
-		The subarrays of [3, 1, 2 , 1] having elements that sum to a number <= (k = 4) are [3], [1], [2], [1], [3, 1], [1, 2], [2, 1] and [1, 2, 1], which has a length of 3.    
-		The longest of these is [1, 2, 1], which has a length of 2.  
-		Thus, we return 3 as our answer.
-		
-		
+	Sample Input 0:
+	3
+	1
+	2
+	3
+	4
+	
+	Sample Output 0:
+	2
+	
+	Explanation 0:
+	The subarrays of [1, 2, 3] having elements that sum to a number <= (k = 4) are [1], [2], [3] and [1, 2].  
+	The longest of these is [1, 2], which has a length of 2.  
+	Thus, we return 2 as our answer.
+	
+	Sample Input 1:
+	4
+	3
+	1
+	2
+	1
+	4
+	
+	Sample Output 0:
+	3
+	
+	Explanation 0:
+	The subarrays of [3, 1, 2 , 1] having elements that sum to a number <= (k = 4) are [3], [1], [2], [1], [3, 1], [1, 2], [2, 1] and [1, 2, 1], which has a length of 3.    
+	The longest of these is [1, 2, 1], which has a length of 2.  
+	Thus, we return 3 as our answer.
+	
 	

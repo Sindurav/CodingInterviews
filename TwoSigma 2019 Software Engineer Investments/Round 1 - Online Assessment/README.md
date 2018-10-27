@@ -20,29 +20,29 @@ Constraints
 - friends[i][j] = "Y", where 0 <= i < N.
 - friends[i][j] = friends[j][i], where 0 <= i < j < N.
 
-		Sample Input 0:
-		4
-		YYNN
-		YYYN
-		NYYN
-		NNNY
-		Sample Output 0:
-		2
-		
-		Explanation 0:
-		There are two pairs of friends [0, 1] and [1, 2]. So [0, 2] is also a pair of friends by transitivity.
-		So first friend circle contains (0, 1, 2) and second friend circle contains only student 3
-		
-		Sample Input 1:
-		5
-		YNNNN
-		NYNNN
-		NNYNN
-		NNNYN
-		NNNNY
-		Sample output 1:
-		5
-		
+	Sample Input 0:
+	4
+	YYNN
+	YYYN
+	NYYN
+	NNNY
+	Sample Output 0:
+	2
+	
+	Explanation 0:
+	There are two pairs of friends [0, 1] and [1, 2]. So [0, 2] is also a pair of friends by transitivity.
+	So first friend circle contains (0, 1, 2) and second friend circle contains only student 3
+	
+	Sample Input 1:
+	5
+	YNNNN
+	NYNNN
+	NNYNN
+	NNNYN
+	NNNNY
+	Sample output 1:
+	5
+	
 		
 		
 ## 2. String Chains
@@ -77,21 +77,21 @@ Constraints
 - 1 <= Length of game <= 100000
 - s[i] contains either "1" or "0"
 
-		Sample Input 0:
-		6
-		a
-		b
-		ba 
-		bca 
-		bda 
-		bdca 
-		
-		Sample Output 0:
-		4
-		
-		Explanation 0:
-		
-		words = ["a", "b", "ba", "bca", "bda", "bdca"]
-		the word "bdca" can create four different string chains of length: 4
-		("bdca" -> "bda" -> "ba" -> "a", "bdca" -> "bda" -> "ba" -> "b", "bdca" -> "bca" -> "ba" -> "a", "bdca" -> "bca" -> "ba" -> "b")
-		This means our current longest string chain is 4
+	Sample Input 0:
+	6
+	a
+	b
+	ba 
+	bca 
+	bda 
+	bdca 
+	
+	Sample Output 0:
+	4
+	
+	Explanation 0:
+	
+	words = ["a", "b", "ba", "bca", "bda", "bdca"]
+	the word "bdca" can create four different string chains of length: 4
+	("bdca" -> "bda" -> "ba" -> "a", "bdca" -> "bda" -> "ba" -> "b", "bdca" -> "bca" -> "ba" -> "a", "bdca" -> "bca" -> "ba" -> "b")
+	This means our current longest string chain is 4
