@@ -27,25 +27,25 @@ Constraints:
 - 2 <= n <= 10000.
 - 0 <= num[i] <= 100000
 
-	Sample Input 0:
-	3
-	1
-	2
-	3
-	Sample Output 0:
-	9
-	
-	Explanation 0:
-	Anna makes the following moves to reduce the num = [1, 2, 3]:
-	1. Removes 1 and 2 at cost1 = 1+2 = 3, resulting in num1 = [3, 3]
-	1. Removes 3 and 3 at cost2 = 3+3 = 6, resulting in num2 = [6]
-	When we sum up the cost at each reduction, we get 3+6 = 9
-	
-	Sample Input 1:
-	3
-	4
-	6
-	8
-	Sample output 1:
-	28
+		Sample Input 0:
+		3
+		1
+		2
+		3
+		Sample Output 0:
+		9
 		
+		Explanation 0:
+		Anna makes the following moves to reduce the num = [1, 2, 3]:
+		1. Removes 1 and 2 at cost1 = 1+2 = 3, resulting in num1 = [3, 3]
+		1. Removes 3 and 3 at cost2 = 3+3 = 6, resulting in num2 = [6]
+		When we sum up the cost at each reduction, we get 3+6 = 9
+		
+		Sample Input 1:
+		3
+		4
+		6
+		8
+		Sample output 1:
+		28
+			

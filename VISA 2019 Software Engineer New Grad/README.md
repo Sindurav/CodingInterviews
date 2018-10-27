@@ -27,31 +27,31 @@ Constraints
 - 1 <= n <= 100000
 - Each data[i][j] belongs {"Y", "N"}
 
-	Sample Input 0:
-	2
-	2
-	YN
-	NN
-	Sample Output 0:
-	0
-	
+		Sample Input 0:
+		2
+		2
+		YN
+		NN
+		Sample Output 0:
+		0
+		
 
-	Sample Input 1:
-	3
-	1
-	NYY
-	Sample output 1:
-	0
-	
-	Sample Input 2:
-	4
-	5
-	YNYY
-	YYYY
-	YYNY
-	NYYN
-	Sample Output 2:
-	2
+		Sample Input 1:
+		3
+		1
+		NYY
+		Sample output 1:
+		0
+		
+		Sample Input 2:
+		4
+		5
+		YNYY
+		YYYY
+		YYNY
+		NYYN
+		Sample Output 2:
+		2
 		
 ## 2. Binary Jumps
 ----
@@ -70,16 +70,16 @@ Constraints
 - 1 <= Length of game <= 100000
 - s[i] contains either "1" or "0"
 
-	Sample Input 0:
-	11111
-	Sample Output 0:
-	1
-	
+		Sample Input 0:
+		11111
+		Sample Output 0:
+		1
+		
 
-	Sample Input 1:
-	10101
-	Sample output 1:
-	2
+		Sample Input 1:
+		10101
+		Sample output 1:
+		2
 
 
 ## 3. Flower Bouquets 
@@ -114,22 +114,22 @@ Constraints:
 - 1 <= |s| <= 100000
 
 
-	Sample Input 0:
-	2
-	
-	3
-	0001000
-	Sample Output 0:
-	5
-	
-	Explanation 0
-	Lara can make two bouquets of three roses by the corresponding indexes: [0, 1, 2] and [4, 5, 6] and can earn 2+2 = 4 profit.
-	**OR**
-	Lara can make one bouquet of three roses by the corresponding indexes: [0, 1, 2] and one bouquet of one rose and one cosmos by corresponding indexes (3, 4) and can earn 2+3 = 5 profit.
-	5 i greater than 4 so print 5
+		Sample Input 0:
+		2
 		
+		3
+		0001000
+		Sample Output 0:
+		5
 		
-		
+		Explanation 0
+		Lara can make two bouquets of three roses by the corresponding indexes: [0, 1, 2] and [4, 5, 6] and can earn 2+2 = 4 profit.
+		**OR**
+		Lara can make one bouquet of three roses by the corresponding indexes: [0, 1, 2] and one bouquet of one rose and one cosmos by corresponding indexes (3, 4) and can earn 2+3 = 5 profit.
+		5 i greater than 4 so print 5
+			
+			
+			
 		
 		
 
