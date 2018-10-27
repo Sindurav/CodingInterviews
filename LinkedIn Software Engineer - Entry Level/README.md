@@ -86,22 +86,22 @@ Constraints:
 - 1 <= nums[j] <= 1000000000, where 0 <= j < n
 - 1 <= maxes[i] <= 1000000000, where 0 <= i < m.
 
-	Sample Input 0:
-	4
-	1
-	4
-	2
-	4
-	2
-	3
-	5
-	
-	Sample Output 0:
-	2
-	4
-	
-	Explanation 0:
-	We are given n = 4, nums = [1, 4, 2, 4], m = 2, and maxes = [3, 5].
-	1. For maxes[0] = 3, we have 2 elements in nums (nums[0] = 1, and nums[2] = 2) that are <= maxes[0].
-	2. For maxes[1] = 5, we have 4 elements in nums (nums[0] = 1, nums[1] = 4, nums[2] = 2, and nums[3] = 4) that are <= maxes[1].
-	Thus the function returns the array [2, 4] as the answer.
+		Sample Input 0:
+		4
+		1
+		4
+		2
+		4
+		2
+		3
+		5
+		
+		Sample Output 0:
+		2
+		4
+		
+		Explanation 0:
+		We are given n = 4, nums = [1, 4, 2, 4], m = 2, and maxes = [3, 5].
+		1. For maxes[0] = 3, we have 2 elements in nums (nums[0] = 1, and nums[2] = 2) that are <= maxes[0].
+		2. For maxes[1] = 5, we have 4 elements in nums (nums[0] = 1, nums[1] = 4, nums[2] = 2, and nums[3] = 4) that are <= maxes[1].
+		Thus the function returns the array [2, 4] as the answer.
