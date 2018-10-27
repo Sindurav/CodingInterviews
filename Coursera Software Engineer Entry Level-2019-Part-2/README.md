@@ -24,16 +24,16 @@ Constraints:
 
  
  
-	Sample Input 0:
-	s = aabaa
-	
-	Sample Output 0:
-	5
-	
-	Explanation 0:
-	Palindromic substring are [a, aa, aabaa, aba, b]
-	The substring "a" occurs 4 times, but is counted only once.  
-	Similarly, "aa" occurs twice but counts as one distinct palindrome.
+		Sample Input 0:
+		s = aabaa
+		
+		Sample Output 0:
+		5
+		
+		Explanation 0:
+		Palindromic substring are [a, aa, aabaa, aba, b]
+		The substring "a" occurs 4 times, but is counted only once.  
+		Similarly, "aa" occurs twice but counts as one distinct palindrome.
 	
 
 ## 2. Triplets
