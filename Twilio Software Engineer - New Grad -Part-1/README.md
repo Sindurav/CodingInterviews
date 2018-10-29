@@ -5,8 +5,11 @@
 -----
 Given a date string in the format Day Month Year where:
 
-Day is in set {}
-Month is in set 
+Day is in set {"1st", "2nd", "3rd", "4th", "5th", "6th", .... , "31st"}   
+
+Month is in set {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                 "Jul", "Aug", "Sep" , "Oct" , "Nov", "Dec"}.   
+				 
 Year is in the inclusive range [1900, 2100]
 
 For Example:  
