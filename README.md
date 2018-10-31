@@ -27,7 +27,7 @@
 	<td> TwoSigma </td>
 	<td> Software Engineer Investment </td>
 	<td> Oct 2018 </td>
-	<td colspan="3"> Round-1 Hackerrank Online Assessment, <br> Round -2 HR, <br> Round-3 Technical Phone Interview (Hackerrank CodePair)</td>
+	<td colspan="3"> Round-1 Hackerrank Online Assessment, <br> Round -2 HR, <br> Round-3 Technical Phone Interview</td>
 	
 </tr>
 
@@ -35,7 +35,7 @@
 	<td> VISA </td>
 	<td> 2019 Software Engineer New Grad </td>
 	<td> Oct 2018 </td>
-	<td colspan="2"> Round-1 Hackerrank Online Assessment, <br> Round-2 Technical Phone Interview (Hackerrank CodePair)</td>
+	<td colspan="2"> Round-1 Hackerrank Online Assessment, <br> Round-2 Technical Phone Interview</td>
 </tr>
 
 <tr>
