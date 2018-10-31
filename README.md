@@ -35,14 +35,15 @@
 	<td> VISA </td>
 	<td> 2019 Software Engineer New Grad </td>
 	<td> Oct 2018 </td>
-	<td> Hackerrank Online Assessment </td>
+	<td colspan="2"> Round-1 Hackerrank Online Assessment, <br> Round-2 Technical Phone Interview (Hackerrank CodePair)</td>
 </tr>
 
 <tr>
 	<td> Quantum Black </td>
 	<td> Machine Learning Software Engineer </td>
 	<td> Oct 2018 </td>
-	<td colspan="2"> Round-1 Hackerrank Online Assessment, <br> Round-2 Technical Phone Interview (Hackerrank CodePair)</td>
+	<td> Hackerrank Online Assessment </td>
+
 </tr>
 
 
