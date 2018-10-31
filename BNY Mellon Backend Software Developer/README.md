@@ -75,7 +75,7 @@ The query response from the website is a JSON object described below:
 	2. pageid: The article's Page ID.
 	3. text: A JSON object that contains the Wikipedia article as an HMTL dump.
 	
-Function Description:     
+**Function Description:**     
 
 Complete the function `getTopicCount` in the editor below.  
 The function must return an integer, the number of times the search term topic appears in the returned text field.
@@ -96,13 +96,13 @@ Describe what happens between the moment you press the `Enter` key when the page
 Note: this is an open-ended question. You will need to decide the level of detail you want to include.  
 
 
-		Ans: 
-			- When the user hits enter, the browser looks in the cache whether the corresponding IP address is present or not.
-			- If the IP is present in the browser cache then it renders the page from the cache.
-			- If IP is not present in the browser cache then it will try to find the IP for the corresponding URL in the DNS server.
-			- Once the browser gets the IP from DNS server, it will establish a connection and send the HTTP request to the server with that IP.
-			- The server will serve the browser by checking the URL and responding with HTTP response.
-			- The browser receives the HTTP response which is usually an HTML page which browser then renders the response in the window. 
+	Ans: 
+		- When the user hits enter, the browser looks in the cache whether the corresponding IP address is present or not.
+		- If the IP is present in the browser cache then it renders the page from the cache.
+		- If IP is not present in the browser cache then it will try to find the IP for the corresponding URL in the DNS server.
+		- Once the browser gets the IP from DNS server, it will establish a connection and send the HTTP request to the server with that IP.
+		- The server will serve the browser by checking the URL and responding with HTTP response.
+		- The browser receives the HTTP response which is usually an HTML page which browser then renders the response in the window. 
 
 	
 ## 5. Complexity of the Code Snippet
