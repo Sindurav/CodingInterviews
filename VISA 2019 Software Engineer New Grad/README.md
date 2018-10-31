@@ -5,7 +5,7 @@
 ## Round 1 (Hackerrank Online Assessment)
 ---
 - 1st round was hackerank round.
-- I got 3 coding questions and 3 MCQ question which I had to solve in 120 minutes.
+- I got 3 coding questions and 3 MCQ questions which I had to solve in 120 minutes.
 
 
 ## Round 2 (Technical Phone Interview)

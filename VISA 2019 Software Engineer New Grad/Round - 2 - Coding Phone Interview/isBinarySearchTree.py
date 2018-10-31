@@ -55,20 +55,35 @@ def recurse(node, min_val, max_val, flag):
 tree = Tree(5)
 tree.insert_node(1, tree.root)
 tree.insert_node(2, tree.root)
+tree.insert_node(3, tree.root)
+tree.insert_node(4, tree.root)
 tree.insert_node(6, tree.root)
 tree.insert_node(7, tree.root)
+
+is_binary_tree = validate_binary_tree(tree.root)
+print(is_binary_tree)
+
+not_bin_tree = Node(5)
+not_bin_tree.child[0] = Node(6)
+not_bin_tree.child[1] = Node(7)
+
+#     5
+#   /  \
+#  6    7
+
+is_binary_tree = validate_binary_tree(not_bin_tree)
+print(is_binary_tree)
 
 not_bin_tree = Node(5)
 not_bin_tree.child[0] = Node(3)
 not_bin_tree.child[1] = Node(7)
 not_bin_tree.child.append(Node(9))
 
-#     5
-#   /   \
-#  6     7
-
-is_binary_tree = validate_binary_tree(None)
+#     5 -- 9
+#   /  \
+#  3    7
+is_binary_tree = validate_binary_tree(not_bin_tree)
 print(is_binary_tree)
 
-is_binary_tree = validate_binary_tree(not_bin_tree)
+is_binary_tree = validate_binary_tree(None)
 print(is_binary_tree)
