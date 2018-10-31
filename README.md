@@ -89,7 +89,6 @@
 
 <tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer%20-%20New%20Grad%20-Part-1"> Coursera  Part 2 </a> </td>
-	<td> Coursera Part 2 </td>
 	<td> Software Engineer Entry Level 2019  </td>
 	<td> Oct 2018 </td>
 	<td> Hackerrank Online Assessment </td>
