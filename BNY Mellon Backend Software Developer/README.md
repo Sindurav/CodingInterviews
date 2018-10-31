@@ -116,11 +116,11 @@ Consider the following code snippet:
 		}
 
 What is complexity of the above code snippet:    
-**Pick one of the choices**
-	 - O(n) 
-	 - O(1) 
-	 - O(log(n)) 
-	 - O(2^n)
+**Pick one of the choices**     
+	 - O(n)     
+	 - O(1)     
+	 - O(log(n))     
+	 - O(2^n)     
 
 	 
 	 
