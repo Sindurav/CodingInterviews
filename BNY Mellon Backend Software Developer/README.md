@@ -4,10 +4,10 @@
 ## 1. Validate JSON
 -----
 Your job is to determine if an input string is valid JSON.  
-An easy resource for understanding JSON is here: htt[://www.json.org/   
+An easy resource for understanding JSON is here: http://www.json.org/   
 
 Your requirements:
-  - Determine if the input string i valid JSON.   
+  - Determine if the input string is valid JSON.   
   - Return "true" if it is valid. Return "false" if it is not.   
   
 Example:  
@@ -59,18 +59,6 @@ The output would be:
 
  - Replace all of the characters
  - Your code should be able to handle Unicode characters (i.e., non-English)
- 
- 
- 
-
-Your requirements:
-  - Determine if the input string i valid JSON.     
-  - Return "true" if it is valid. Return "false" if it is not.   
-  
-Example:  
-
-If you are given the following input data:   
-`{"test": "Hello World"}`
 
 
 ## 3. Wikipedia Article
