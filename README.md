@@ -17,14 +17,14 @@
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer%20-%20New%20Grad%20-Part-1" target="_blank"> Twilio Part 2 </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer-%20New%20Grad%20-%20Part-2" target="_blank"> Twilio Part 2 </a> </td>
 	<td> Software Engineer New Grad 2019 </td>
 	<td> Oct 2018 </td>
 	<td> Hackerrank Online Assessment </td>
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer%20-%20New%20Grad%20-Part-1" target="_blank"> TwoSigma </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/TwoSigma%202019%20Software%20Engineer%20Investments" target="_blank"> TwoSigma </a> </td>
 	<td> Software Engineer Investment </td>
 	<td> Oct 2018 </td>
 	<td colspan="3"> Round-1 Hackerrank Online Assessment, <br> Round-2 HR, <br> Round-3 Technical Phone Interview</td>
@@ -32,14 +32,14 @@
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer%20-%20New%20Grad%20-Part-1" target="_blank"> VISA </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/VISA%202019%20Software%20Engineer%20New%20Grad" target="_blank"> VISA </a> </td>
 	<td> 2019 Software Engineer New Grad </td>
 	<td> Oct 2018 </td>
 	<td colspan="2"> Round-1 Hackerrank Online Assessment, <br> Round-2 Technical Phone Interview</td>
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer%20-%20New%20Grad%20-Part-1" target="_blank"> VISA </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Twilio%20Software%20Engineer%20-%20New%20Grad%20-Part-1" target="_blank"> Quantum Black </a> </td>
 	<td> Machine Learning Software Engineer </td>
 	<td> Oct 2018 </td>
 	<td> Hackerrank Online Assessment </td>
