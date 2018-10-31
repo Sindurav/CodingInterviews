@@ -64,7 +64,7 @@
 
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/ClassPass%202019%20Software%20Egnineer%20New%20Grad target="_blank"> ClassPass </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/ClassPass%202019%20Software%20Egnineer%20New%20Grad" target="_blank"> ClassPass </a> </td>
 	<td> Software Engineer - New Grad 2019  </td>
 	<td> Oct 2018 </td>
 	<td> Codility Online Assessment </td>
