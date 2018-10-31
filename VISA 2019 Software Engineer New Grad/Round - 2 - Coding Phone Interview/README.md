@@ -13,10 +13,13 @@
 		Both the left and right subtrees must also be binary search trees.   
 
 
-2. Follow-up: Generalize your code for n-array tree. Make a N-array tree. Given N-array tree validate that it is a binary search tree (BST).  
+2. Follow-up: 
+		Generalize your code for N-array tree. Make a N-array tree. Given N-array tree validate that it is a binary search tree (BST).  
 
-3. Follow-up: Optimize your code. I used flag to stop the recursion. Flag is used for early stop.   
+3. Follow-up: 
+		Optimize your code. I used flag to stop the recursion. Flag is used for early stop.   
 
 4. What is the time complexity and space complexity.   
 
-5. Follow-up: Can you do it iteratively ?? 
+5. Follow-up:
+		Can you do it iteratively ?? 
