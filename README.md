@@ -12,7 +12,7 @@
 |[SAP](https://github.com/jayshah19949596/CodingInterviews/tree/master/SAP%20Silicon%20Valley%20Next%20Talent%20Program%202019)            |  Silicon Valley Next Talent Program 2019    | Sept 2018| SAP Online Assessment       |
 
 
-<table>
+<table align="center">
 <caption>Company Interview Table </caption>
 <tr>
 	<th>Company</th>
