@@ -5,7 +5,7 @@
 -----
 Given a date string in the format Day Month Year where:
 
-Day is in set {"1st", "2nd", "3rd", "4th", "5th", "6th", .... , "31st"}   
+Day is in set {"1st", "2nd", "3rd", "4th", "5th", "6th", .... , "31st"}.   
 
 Month is in set {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
                  "Jul", "Aug", "Sep" , "Oct" , "Nov", "Dec"}.   
@@ -105,4 +105,3 @@ Constraints:
 		unicomp6.unicompt.net - - [01/JUL/1995:00:00:14 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 1204 
 		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /shuttle/countdown/ HTTP/1.0" 200 40310 
 		d104.aa.net - - [01/JUL/1995:00:00:15 - 0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786 
-

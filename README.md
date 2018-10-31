@@ -10,3 +10,29 @@
 |[LinkedIn](https://github.com/jayshah19949596/CodingInterviews/tree/master/LinkedIn%20Software%20Engineer%20-%20Entry%20Level)            |  Software Engineer Entry Level 2019    | Oct 2018| Hackerrank Online Assessment    |
 |[Coursera](https://github.com/jayshah19949596/CodingInterviews/tree/master/Coursera%20Software%20Engnineer%20Entry%20Level%20-%202019)            |  Software Engineer Entry Level 2019    | Oct 2018| Hackerrank Online Assessment    |
 |[SAP](https://github.com/jayshah19949596/CodingInterviews/tree/master/SAP%20Silicon%20Valley%20Next%20Talent%20Program%202019)            |  Silicon Valley Next Talent Program 2019    | Sept 2018| SAP Online Assessment       |
+
+
+<table>
+ <caption>Life Expectancy By Current Age</caption>
+ <tr>
+  <th colspan="2">65</th>
+  <th colspan="2">40</th>
+  <th colspan="2">20</th>
+ </tr>
+ <tr>
+  <th>Men</th>
+  <th>Women</th>
+  <th>Men</th>
+  <th>Women</th>
+  <th>Men</th>
+  <th>Women</th>
+ </tr>
+ <tr>
+  <td>82</td>
+  <td>85</td>
+  <td>78</td>
+  <td>82</td>
+  <td>77</td>
+  <td>81</td>
+ </tr>
+</table>

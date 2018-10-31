@@ -1,3 +1,8 @@
+# Time Complexity - O(n^2)
+# Space Complexity - O(n)
+# Better solutions out there with O(n) solution
+
+
 def apply_kadenze(arr):
     max_so_far = arr[0]
     max_ending = arr[0]
