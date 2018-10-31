@@ -25,7 +25,7 @@
 	<td> TwoSigma </td>
 	<td> Software Engineer Investment </td>
 	<td> Oct 2018 </td>
-	<td colspan="3"> Round-1 Hackerrank Online Assessment, Round -2 HR, Round-3 Technical Phone Interview </td>
+	<td colspan="3"> Round-1 Hackerrank Online Assessment, <br> Round -2 HR, <br> Round-3 Technical Phone Interview </td>
 	
 </tr>
 <tr>
