@@ -6,11 +6,11 @@
 
 1. Given a binary tree, determine if it is a valid binary search tree (BST).   
 
-Assume a BST is defined as follows:   
+		Assume a BST is defined as follows:   
 
-The left subtree of a node contains only nodes with keys less than the node's key.  
-The right subtree of a node contains only nodes with keys greater than the node's key.  
-Both the left and right subtrees must also be binary search trees.   
+		The left subtree of a node contains only nodes with keys less than the node's key.  
+		The right subtree of a node contains only nodes with keys greater than the node's key.  
+		Both the left and right subtrees must also be binary search trees.   
 
 
 2. Follow-up: Generalize your code for n-array tree. Make a N-array tree. Given N-array tree validate that it is a binary search tree (BST).  
