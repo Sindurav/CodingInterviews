@@ -153,29 +153,29 @@ The next `n` lines each contain a string `a[i]` where 0 <= i < n and |a[i]| = m.
 
 
 
-		Sample Case 0 
-		Sample Input 0
-		3
-		4
-		1 1 1 1
-		1 1 1 1
-		1 1 1 1
-		
-		Sample Output 0 
-		10
-		
-		Explanation 0
-		
-		
-		Sample Case 1 
-		Sample Input 1
-		2
-		2
-		1 1
-		0 1
-		
-		Sample Output 1 
-		1
-		
-		Explanation 1
-		
+	Sample Case 0 
+	Sample Input 0
+	3
+	4
+	1 1 1 1
+	1 1 1 1
+	1 1 1 1
+	
+	Sample Output 0 
+	10
+	
+	Explanation 0
+	
+	
+	Sample Case 1 
+	Sample Input 1
+	2
+	2
+	1 1
+	0 1
+	
+	Sample Output 1 
+	1
+	
+	Explanation 1
+	
