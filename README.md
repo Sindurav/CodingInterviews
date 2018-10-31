@@ -13,25 +13,25 @@
 
 
 <table>
-	<caption>Company Interview Table </caption>
-	<tr>
-		<th>Company</th>
-		<th>Position</th>
-		<th>Applied</th>
-		<th>Test</th>
-	</tr>
- 
-	<tr>
-		<td> TwoSigma </td>
-		<td> Software Engineer Investment </td>
-		<td> Oct 2018 </td>
-		<td colspan="3"> Round-1 Hackerrank Online Assessment, Round -2 HR, Round-3 Technical Phone Interview </td>
-		
-	</tr>
-	<tr>
-		<td> VISA </td>
-		<td> 2019 Software Engineer New Grad </td>
-		<td> Oct 2018 </td>
-		<td> Hackerrank Online Assessment </td>
-	</tr>
+<caption>Company Interview Table </caption>
+<tr>
+	<th>Company</th>
+	<th>Position</th>
+	<th>Applied</th>
+	<th>Test</th>
+</tr>
+
+<tr>
+	<td> TwoSigma </td>
+	<td> Software Engineer Investment </td>
+	<td> Oct 2018 </td>
+	<td colspan="3"> Round-1 Hackerrank Online Assessment, Round -2 HR, Round-3 Technical Phone Interview </td>
+	
+</tr>
+<tr>
+	<td> VISA </td>
+	<td> 2019 Software Engineer New Grad </td>
+	<td> Oct 2018 </td>
+	<td> Hackerrank Online Assessment </td>
+</tr>
 </table>
