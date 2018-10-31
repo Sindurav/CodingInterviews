@@ -19,7 +19,7 @@ If you are given the following input data:
 The output will be:   
 `true`
 
-On the other hand, if you are given the following input data:
+On the other hand, if you are given the following input data:    
 `{"test": Hello World"}`
 
 The output will be:   
@@ -38,20 +38,21 @@ In HTML, these are often called referenced "entities".
 ## Problem
 You will need to do a limited version of character replacement.   
 Specifically, you need to find these characters in an input string:
- - "<"
- - ">"
- - "&"
+ - "<"     
+ - ">"    
+ - "&"    
+
 and replace them with:
- - "&lt;"
- - "&gt;"
- - "&amp;"
+ - "&lt;"     
+ - "&gt;"     
+ - "&amp;"    
  
 ## Example
 
 For example, if you are given this string:   
-`Hello <World> Goodbye & World`  
-The output would be:   
-`Hello <World> Goodbye & World`  
+`Hello <World> Goodbye & World`      
+The output would be:     
+`Hello &lt; World &gt; Goodbye &amp; World`  
 
 
 ## Considerations
@@ -63,7 +64,7 @@ The output would be:
  
 
 Your requirements:
-  - Determine if the input string i valid JSON.   
+  - Determine if the input string i valid JSON.     
   - Return "true" if it is valid. Return "false" if it is not.   
   
 Example:  
