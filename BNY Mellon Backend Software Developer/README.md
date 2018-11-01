@@ -83,6 +83,10 @@ The function must return an integer, the number of times the search term topic a
 `getTopicCount` has the following parameter(s):     
 	topic: a string to query
 	
+	
+[image0]: ./images/Wikipedia.JPG "Wikipedia"
+![Wikipedia][image0]
+	
 
 ## 4. Loading a web page
 -----
@@ -165,7 +169,8 @@ The next `n` lines each contain a string `a[i]` where 0 <= i < n and |a[i]| = m.
 	10
 	
 	Explanation 0
-	
+[image1]: ./images/Q6E1.JPG "Q6E1"
+![Q6E1][image1]
 	
 	Sample Case 1 
 	Sample Input 1
@@ -178,4 +183,6 @@ The next `n` lines each contain a string `a[i]` where 0 <= i < n and |a[i]| = m.
 	1
 	
 	Explanation 1
+[image2]: ./images/Q6E2.JPG "Q6E2"
+![Q6E2][image2]
 	
