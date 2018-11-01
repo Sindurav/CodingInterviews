@@ -119,14 +119,15 @@ Consider the following code snippet:
 			a = a * 2
 		}
 
-What is complexity of the above code snippet:    
+What is complexity of the above code snippet:      
+
 **Pick one of the choices**     
 	 - O(n)     
 	 - O(1)     
 	 - O(log(n))     
-	 - O(2^n)     
+	 - O(2^n)      
 
-** The correct answer is O(log(n)).**
+**The correct answer is O(log(n)).**
 	 
 	 
 ## 6. Number of Paths in a Matrix
