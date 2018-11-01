@@ -126,6 +126,7 @@ What is complexity of the above code snippet:
 	 - O(log(n))     
 	 - O(2^n)     
 
+** The correct answer is O(log(n)).**
 	 
 	 
 ## 6. Number of Paths in a Matrix
