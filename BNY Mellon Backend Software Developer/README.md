@@ -44,9 +44,9 @@ Specifically, you need to find these characters in an input string:
 
 and replace them with:     
 
- - &lt;     
- - &gt;     
- - &amp;    
+ - ->&lt;     
+ - ->&gt;     
+ - ->&amp;    
  
 ## Example
 
