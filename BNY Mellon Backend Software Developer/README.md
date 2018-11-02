@@ -37,13 +37,13 @@ In HTML, these are often called referenced "entities".
 
 ## Problem
 You will need to do a limited version of character replacement.   
-	Specifically, you need to find these characters in an input string:    
+Specifically, you need to find these characters in an input string:    
 	
 	 - "<"     
 	 - ">"    
 	 - "&"    
 
-	and replace them with:     
+and replace them with:     
 
 	 - "&lt;"     
 	 - "&gt;"     
