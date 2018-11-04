@@ -1,14 +1,8 @@
-class Solution 
+class ManagingAccoutns 
 {
     public int solution(int A) 
     {
         // write your code in Java SE 8
-        
-        
-        String num;
-        int i, j;
-        String res;
-        
         
         num = String.valueOf(A);
         
@@ -16,6 +10,11 @@ class Solution
         {
             return A;
         }
+        
+		
+        String num;
+        int i, j;
+        String res;        
         
         i = 0;
         j = num.length()-1;
