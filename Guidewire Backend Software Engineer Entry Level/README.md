@@ -1,6 +1,6 @@
 # Codility Assessment
 
-## 1. Managin Accounts
+## 1. Managing Accounts
 -----  
 
 There is a company that has a very creative way of managing its accounts.  
@@ -8,9 +8,9 @@ Every time they want to write down a number, they shuffle its digits in the foll
 they alternatively write one digit form front and one digit from back, then the second digit from front and second digit from back, and so on until the length of shuffled number is the same as that of the original.  
 
 
-Write a function 
+Write a function:
 
-		class Solution {public int solution(int A);}
+	class Solution {public int solution(int A);}
 		
 that, given a positive integer A, return its shuffled representation.   
 For example, given `A = 123456` the function should return `162534` .    
