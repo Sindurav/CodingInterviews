@@ -38,11 +38,11 @@ Write a function:
 
 	class Solution{public int Solution(int[] A, int K, int L);}
 	
-that given an array A consisting of N integers denoting the number of apples on each apple tree in the row, and integers K and L denoting, respectively, the number of trees that Alice and Bob can choose when collecting, returns the maximum number of apples that can be collected by them, or -1 if there are no such intervals.    
+that given an array A consisting of N integers denoting the number of apples on each apple tree in the row, and integers K and L denoting, respectively, the number of trees that Alice and Bob can choose when collecting, returns the maximum number of apples that can be collected by them, or `-1` if there are no such intervals.    
 
-For example, given `A=[6, 1, 4, 6, 3, 2, 7, 4], K = 3, L = 3`, your function should return 24, because Alice can choose trees 3 to 5 and collect 4+6+3=13 apples, Bob can choose trees 7 to 8 and collect 7+4=11 apples. Thus, they collect 13+11=24 apples in total, and that is the maximum number that can be achieved. 
+For example, given `A=[6, 1, 4, 6, 3, 2, 7, 4], K = 3, L = 3`, your function should return 24, because Alice can choose trees `3` to `5` and collect `4+6+3=13` apples, Bob can choose trees `7` to `8` and collect `7+4=11` apples. Thus, they collect `13+11=24` apples in total, and that is the maximum number that can be achieved. 
 
-Given ``A=[10, 19, 15], K = 2, L = 2`, your function should return -1, because it is not possible for Alice and Bob to choose two disjoint intervals.   
+Given `A=[10, 19, 15], K = 2, L = 2`, your function should return `-1`, because it is not possible for Alice and Bob to choose two disjoint intervals.   
 
 Assume that:   
  - N is an integer within the range [2..600];
