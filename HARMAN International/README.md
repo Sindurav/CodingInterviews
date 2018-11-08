@@ -1,9 +1,11 @@
 # Round-2 WebEx Interview
 
 -  I was asked to share my screen and open an editor and code.   
--  I was asked the following questions.      
 -  It was an one hour interview.   
--  I was asked the time complexity and space complexity of my code
+-  I was asked the time complexity and space complexity of my code.  
+-  I was asked the following questions:   
+
+
 
 ## 1. Data Structure design to Store Items
 ---------
