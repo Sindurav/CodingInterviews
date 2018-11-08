@@ -71,7 +71,7 @@
 
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/ClassPass%202019%20Software%20Egnineer%20New%20Grad" target="_blank"> ClassPass </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/ClassPass%202019%20Software%20Engineer%20New%20Grad" target="_blank"> ClassPass </a> </td>
 	<td> Software Engineer - New Grad 2019  </td>
 	<td> Oct 2018 </td>
 	<td> Codility Online Assessment </td>
@@ -109,8 +109,8 @@
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/HARMAN%20International" target="_blank"> Harman International </a> </td>
-	<td> Software Engineer New Grad </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/HARMAN%20International%20Software%20Engineer%202019" target="_blank"> Harman International </a> </td>
+	<td> Software Engineer 2019 </td>
 	<td> Sept 2018 </td>
 	<td> Round-2: WebEx Interview</td>
 </tr>
