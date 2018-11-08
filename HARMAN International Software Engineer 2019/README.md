@@ -9,7 +9,7 @@
 
 ## 1. Data Structure design to Store Items
 ---------
-Given items and the name of the items as string and id of the items as integer. Design an efficient data structure and write a function to search by name and integer.   
+Given items and the name of the items as string and id of the items as integer. Design an efficient data structure to store items. Write a function to search by item by  name. Write a function to search item by id.   
 		
 ## 2. Code Dependency Check
 ---------
