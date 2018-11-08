@@ -1,7 +1,7 @@
 # Got these problems in HACKERRANK challenge
 
 
-- I was given 45 minutes to solve the two questions.    
+- I was given 120 minutes to solve the two questions.    
 
 
 ## 1. Maximum Streak
