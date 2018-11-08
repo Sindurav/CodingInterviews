@@ -1,4 +1,4 @@
-- This repository is for you new grads.   
+- This repository is for the. ones who want to do well in their coding interviews.   
 - This repository will help you know what kind of questions to expect and you can also practice the questions in this repository.    
 - I am creating this repository because initially I faced a lots of rejection because there was no resource like this.    
 - I want others to do good in their coding interviews, hence I am making this repository public.    
