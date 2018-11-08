@@ -108,5 +108,12 @@
 	<td> SAP Online Assessment </td>
 </tr>
 
+<tr>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/HARMAN%20International" target="_blank"> Harman International </a> </td>
+	<td> Software Engineer New Grad </td>
+	<td> Sept 2018 </td>
+	<td> Round-2: WebEx Interview</td>
+</tr>
+
 
 </table>
