@@ -1,5 +1,7 @@
 # Got these problems in HACKERRANK challenge
 
+- I was given 45 minutes to solve the two questions.    
+
 
 ## 1. Hosts and Total Number of Requests
 -----
