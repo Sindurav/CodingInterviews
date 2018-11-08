@@ -1,3 +1,8 @@
+- This repository is for you new grads.   
+- This repository will help you know what kind of questions to expect and you can also practice the questions in this repository.    
+- I am creating this repository because initially I faced a lots of rejection because there was no resource like this.    
+- I want others to do good in their coding interviews, hence I am making this repository public.    
+- If you think that this repository is helpful then don't forget to start :star: this repository, so that other can discover this repository.     
 
 <table align="center">
 <caption>Company Interview Table Sorted by Month-Year</caption>
