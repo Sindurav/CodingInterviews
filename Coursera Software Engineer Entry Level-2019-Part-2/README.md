@@ -1,5 +1,6 @@
 # Got these problems in HACKERRANK challenge
 
+- I was given 60 minutes to solve the two questions.    
 
 ## 1. Sub-palindrome
 -----
