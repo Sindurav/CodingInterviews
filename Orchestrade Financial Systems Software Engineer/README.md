@@ -35,18 +35,18 @@ What is wrong in the below code:
 - What is wrong in the below code when multiple threads execute `Compute` function at the same time:
 
 		
-	ConcurrentDictionary<ComputeParams, double> _resultCache = new ConcurrentDictionary<ComputeParams, double>();
-	 
-	public double Compute(ComputeParams params){
+		ConcurrentDictionary<ComputeParams, double> _resultCache = new ConcurrentDictionary<ComputeParams, double>();
 
-		double result;
-		if (_resultCache.TryGetValue(params, out result)) return result;
-		var result = DoCompute(params);
-		_resultCache[params] = result;
-		return result;
-	}
-	 
-	double DoCompute(ComputeParams params){
+		public double Compute(ComputeParams params){
 
-			// calculate
-	}
+			double result;
+			if (_resultCache.TryGetValue(params, out result)) return result;
+			var result = DoCompute(params);
+			_resultCache[params] = result;
+			return result;
+		}
+		 
+		double DoCompute(ComputeParams params){
+
+				// calculate
+		}
