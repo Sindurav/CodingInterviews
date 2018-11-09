@@ -14,7 +14,8 @@
 -----
 
 ### 1. Debug Hash function
-What is wrong in the below code
+What is wrong in the below code:    
+
 	public override int GetHashCode(List<string> listA, bool isA){
 
 			return IsA.GetHashCode()*31 + listA.GetHashCode();
