@@ -13,10 +13,9 @@
 ## 2. Coding and Debugging Round
 -----
 
-1. Debug Hash function
-
+### 1. Debug Hash function
+--------------------------
 What is wrong in the below code
----------------------------
 	public override int GetHashCode(List<string> listA, bool isA){
 
 			return IsA.GetHashCode()*31 + listA.GetHashCode();
@@ -24,16 +23,18 @@ What is wrong in the below code
 
 
 
-2. Is the String Duplicate?
+### 2. Is the String Duplicate?
 --------------------------
 - Write a function to see if there is any duplicate character in the string.     
 - The function should have a time complexity of O(n) and space complexity of O(1).    
 	 
 
 
-3. What's Wrong in Parallel Computing
+### 3. What's Wrong in Parallel Computing
 --------------------------
-What is wrong in the below code:
+- `ConcurrentDictionary` is a Dictionary which is thread safe.
+- `DoCompute` function is costly.
+- What is wrong in the below code when multiple threads execute `Compute` function at the same time:
 
 		
 	ConcurrentDictionary<ComputeParams, double> _resultCache = new ConcurrentDictionary<ComputeParams, double>();
