@@ -3,7 +3,7 @@
 
 
 def is_duplicate(input_string):
-    if len(input_string):
+    if len(input_string)>256:
         return True
 
     flags = [Flase]*256
