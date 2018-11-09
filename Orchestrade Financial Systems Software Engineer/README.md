@@ -24,8 +24,9 @@ What is wrong in the below code:
 
 
 ### 2. Is the String Duplicate?
-- Write a function to see if there is any duplicate character in the string.     
-- The function should have a time complexity of O(n) and space complexity of O(1).    
+- Write a function to see if there is any duplicate character in the string.    
+- The string will contain only ascii characters.        
+- The function should have a time complexity of O(n) and space complexity of O(1).     
 	 
 
 
