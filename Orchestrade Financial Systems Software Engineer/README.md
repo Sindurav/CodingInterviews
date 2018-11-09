@@ -13,25 +13,28 @@
 ## 2. Coding and Debugging Round
 -----
 
+1. Debug Hash function
+
+What is wrong in the below code
+---------------------------
 	public override int GetHashCode(List<string> listA, bool isA){
 
 			return IsA.GetHashCode()*31 + listA.GetHashCode();
 	}
 
----------------------------
 
-	def is_duplicate(input_string):
-		If len(input_string)>256:
-			return True
-		flags  = [False]*256
-		for char in input_string:
-			If flags[ord(char)] == False:
-				flags[ord(char)] = True
-			else:
-				return True
-		return False
 
+2. Is the String Duplicate?
 --------------------------
+- Write a function to see if there is any duplicate character in the string.     
+- The function should have a time complexity of O(n) and space complexity of O(1).    
+	 
+
+
+3. What's Wrong in Parallel Computing
+--------------------------
+What is wrong in the below code:
+
 		
 	ConcurrentDictionary<ComputeParams, double> _resultCache = new ConcurrentDictionary<ComputeParams, double>();
 
