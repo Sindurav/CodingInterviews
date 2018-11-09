@@ -14,7 +14,6 @@
 -----
 
 ### 1. Debug Hash function
---------------------------
 What is wrong in the below code
 	public override int GetHashCode(List<string> listA, bool isA){
 
@@ -24,14 +23,12 @@ What is wrong in the below code
 
 
 ### 2. Is the String Duplicate?
---------------------------
 - Write a function to see if there is any duplicate character in the string.     
 - The function should have a time complexity of O(n) and space complexity of O(1).    
 	 
 
 
 ### 3. What's Wrong in Parallel Computing
---------------------------
 - `ConcurrentDictionary` is a Dictionary which is thread safe.
 - `DoCompute` function is costly.
 - What is wrong in the below code when multiple threads execute `Compute` function at the same time:
