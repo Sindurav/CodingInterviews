@@ -36,7 +36,7 @@ What is wrong in the below code:
 
 		
 	ConcurrentDictionary<ComputeParams, double> _resultCache = new ConcurrentDictionary<ComputeParams, double>();
-
+	 
 	public double Compute(ComputeParams params){
 
 		double result;
@@ -45,7 +45,7 @@ What is wrong in the below code:
 		_resultCache[params] = result;
 		return result;
 	}
-
+	 
 	double DoCompute(ComputeParams params){
 
 			// calculate
