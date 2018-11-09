@@ -1,4 +1,5 @@
 # Technical Phone Interview
+- The phone interview was 45 minutes long.
 
 ## 1. Technical Questions
 -----
