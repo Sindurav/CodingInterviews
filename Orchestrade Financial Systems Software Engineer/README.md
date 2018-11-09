@@ -18,6 +18,7 @@
 			return IsA.GetHashCode()*31 + listA.GetHashCode();
 	}
 
+---------------------------
 
 	def is_duplicate(input_string):
 		If len(input_string)>256:
@@ -30,6 +31,7 @@
 				return True
 		return False
 
+--------------------------
 		
 	ConcurrentDictionary<ComputeParams, double> _resultCache = new ConcurrentDictionary<ComputeParams, double>();
 
