@@ -6,6 +6,8 @@
 
 
 def reductionCost(nums):
+    # You can also solve this by heap data-structure
+    # Since this submission got accepted by Hackerrank so I did not use heap
     summ = 0
     while len(nums) != 0:
         nums = sorted(nums)
