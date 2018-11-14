@@ -7,8 +7,8 @@
 
 def reductionCost(nums):
     summ = 0
-    while len(num) != 0:
-        num = sorted(num)
-        summ += num[0]+num[1]
-        num = [num[0]+num[1]+num[2:]]
+    while len(nums) != 0:
+        nums = sorted(nums)
+        summ += nums[0]+nums[1]
+        nums = [nums[0]+nums[1]+nums[2:]]
     return summ
