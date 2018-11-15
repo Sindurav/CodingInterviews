@@ -12,4 +12,4 @@ def dfs(root, depth, max_depth):
 
     if root:
         for child in root.children:
-            self.dfs(child, depth + 1, max_depth)
+            dfs(child, depth + 1, max_depth)
