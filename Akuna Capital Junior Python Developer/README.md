@@ -135,7 +135,7 @@ Pick the correct choices:
 		visit(node)
 	end function
 
-[image1]: ./images/Q7-Q7-TraversalOrder.JPG "Q7-TraversalOrder"
+[image1]: ./images/Q7-TraversalOrder.JPG "Q7-TraversalOrder"
 ![Q7-TraversalOrder][image1]
 	
 Pick one of the choices
