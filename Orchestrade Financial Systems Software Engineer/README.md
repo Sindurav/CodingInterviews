@@ -1,5 +1,6 @@
 # Technical Phone Interview
 - The phone interview was 45 minutes long.
+- I was asked to code this in Google Docs so I could not run my code
 
 ## 1. Technical Questions
 -----
