@@ -180,7 +180,8 @@ true when two values are equal:
 
 Complete the blanks in the following question with the appropriate answer.
 
-Consider the following pseudo-code that finds the greatest common divisor of two integers:
+Consider the following pseudo-code that finds the greatest common divisor of two integers:   
+
 	function gcd(int a, int b)
 		if (a equals b)
 			return a
