@@ -145,7 +145,8 @@ Pick one of the choices
 
 ## MCQ 8 - Following code
 ----
-Consider the following pseudo-code:
+Consider the following pseudo-code:   
+
 	function f(int i)
 		int x := 1
 		int loop := 1
