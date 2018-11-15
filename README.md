@@ -13,6 +13,12 @@
 	<th>Test</th>
 </tr>
 
+<tr>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Akuna%20Capital%20Junior%20Python%20Developer" target="_blank"> Akuna Capital </a> </td>
+	<td> Junior Python Developer</td>
+	<td> Nov 2018 </td>
+	<td> Hackerrank Online Assessment </td>
+</tr>
 
 <tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Guidewire%20Backend%20Software%20Engineer%20Entry%20Level" target="_blank"> Guidewire </a> </td>
