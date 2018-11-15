@@ -135,6 +135,9 @@ Pick the correct choices:
 		visit(node)
 	end function
 
+[image1]: ./images/Q7-Q7-TraversalOrder.JPG "Q7-TraversalOrder"
+![Q7-TraversalOrder][image1]
+	
 Pick one of the choices
 
 - A, B, C, D, E, F, G, H, I
@@ -200,17 +203,17 @@ the gcd() function is entered _________ times.
 
 ## 11. Account Validation
 ----
-[image1]: ./images/Q11-AccountValidation.JPG "AccountValidation"
-![AccountValidation][image1]
+[image2]: ./images/Q11-AccountValidation.JPG "AccountValidation"
+![AccountValidation][image2]
 
 
 ## 12. Travel Distance
 ----
-[image2]: ./images/Q12-TravelDistance.JPG "TravelDistance"
-![TravelDistance][image2]
+[image3]: ./images/Q12-TravelDistance.JPG "TravelDistance"
+![TravelDistance][image3]
 
 
 ## 13. Longest Trip
 ----
-[image3]: ./images/Q13-LongestTrip.JPG "LongestTrip"
-![LongestTrip][image3]
+[image4]: ./images/Q13-LongestTrip.JPG "LongestTrip"
+![LongestTrip][image4]
