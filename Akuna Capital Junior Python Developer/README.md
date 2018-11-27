@@ -14,7 +14,7 @@ Pick one of the following:
 
 - efficiently sorting very large files
 - for checking the consistency of relational databases
-- speeding up database search, delete, and insert operations
+- speeding up database search, delete, and insert operations ======> Correct Answer
 - organizing hash tables efficiently
 
 ## MCQ 2
@@ -27,7 +27,7 @@ We perform following sequence of actions:
 
 Which option denotes the sorted list?   
 
-- {1, 2, 3, 4, 5, 7, 9}
+- {1, 2, 3, 4, 5, 7, 9}  ======> Correct Answer
 - {9, 7, 5, 4, 3, 2, 1}
 - {1, 1, 1, 1, 2, 2, 3, 4, 5, 7, 9}
 - None of the above.
@@ -37,8 +37,8 @@ Which option denotes the sorted list?
 
 Check the following statements that are true.  
 Pick the correct choices  
-- It is more time efficiently to iterate through a doubly linked list in reverse than a singly linked list in reverse
-- A doubly linked list is more space efficient than a singly linked list
+- It is more time efficiently to iterate through a doubly linked list in reverse than a singly linked list in reverse ======> Correct Answer
+- A doubly linked list is more space efficient than a singly linked list 
 - Deleting a node in a doubly linked list is more time efficient than deleting a node in a singly linked list
 - Singly and doubly linked list are more efficient than an array
 
@@ -73,7 +73,7 @@ What is the return value of this function?
 	end function 
 	
 - the first value in the array
-- the largest value in the array 
+- the largest value in the array  ======> Correct Answer
 - the median of the array 
 - the smallest value in the array
 
@@ -144,7 +144,7 @@ Pick one of the choices
 - D, G, H, I, E, F, B, C, A
 - A, B, D, E, G, H, C, F, I
 - D, B, G, E, H, A, C, I, F
-- D, G, H, E, B, I, F, C, A
+- D, G, H, E, B, I, F, C, A    ======> Correct Answer
 
 ## MCQ 8 - Following code
 ----
@@ -164,7 +164,7 @@ Consider the following pseudo-code:
 	end function
 	
 What value returned if the function `f` is called with input `i` set to 4?
-f(4) will return ______________
+f(4) will return ______________  = 677
 
 
 ## MCQ 9 - Twos complement representation
@@ -198,7 +198,7 @@ Consider the following pseudo-code that finds the greatest common divisor of two
 	end function
 	
 How many times is the function gcd entered, including the initial call, if a program calls `gcd(15, 21)`?   
-the gcd() function is entered _________ times.
+the gcd() function is entered _________ times.  ======> Correct Answer is 6
 
 
 ## 11. Account Validation
