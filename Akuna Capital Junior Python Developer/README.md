@@ -1,10 +1,12 @@
 # Got these problems in HACKERRANK challenge
+#  If you have answers to the question please share with me by mailing jai.s@somaiya.edu and I will update the repo.
 
 
 - I was given 120 minutes to solve the the following questions.    
 - I failed at this miserably hence the solutions that I am giving did not pass all the test cases.
 - I am not giving out all the solution as other solutions were completely wrong.
 - The current solutions are partially correct. 
+
 
 
 ## MCQ 1 
