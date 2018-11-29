@@ -220,5 +220,5 @@ the gcd() function is entered _________ times.  ======> Correct Answer is 6
 [image4]: ./images/Q13-LongestTrip-P1.JPG "LongestTripP1"
 ![LongestTripP1][image4]
 
-[image4]: ./images/Q13-LongestTrip-P2.JPG "LongestTripP2"
-![LongestTripP2][image4]
+[image5]: ./images/Q13-LongestTrip-P2.JPG "LongestTripP2"
+![LongestTripP2][image5]
