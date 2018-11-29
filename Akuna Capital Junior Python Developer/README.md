@@ -170,8 +170,10 @@ f(4) will return ______________  = 677
 ## MCQ 9 - Twos complement representation
 ----
 
-Assume the following binary values are all signed 8-bit values, represented in twos-complement format, with a decimal range of -128 to 127.  
-true when two values are equal:    
+Assume the following binary values are all signed 8-bit values, represented in twos-complement format, with a decimal range of -128 to 127.    
+Enter `T` or `F` next to statement to indicate if that statement would be true or false.  
+Note that `==` is a test that is true when two values are equal:    
+ 
  _________ 00001010 > 00000111   
  _________ 11111111 > 01111111   
  _________ (11111111 + 11111111) > 00000001 - 00000010   
@@ -215,5 +217,8 @@ the gcd() function is entered _________ times.  ======> Correct Answer is 6
 
 ## 13. Longest Trip
 ----
-[image4]: ./images/Q13-LongestTrip.JPG "LongestTrip"
-![LongestTrip][image4]
+[image4]: ./images/Q13-LongestTrip-P1.JPG "LongestTripP1"
+![LongestTripP1][image4]
+
+[image4]: ./images/Q13-LongestTrip-P2.JPG "LongestTripP2"
+![LongestTripP2][image4]
