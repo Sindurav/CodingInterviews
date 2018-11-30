@@ -1,5 +1,5 @@
 # Got these problems in HACKERRANK challenge
-#  If you have answers to the question please share with me by mailing jai.s@somaiya.edu and I will update the repo.
+#  If you have answers to the question please share with me by mailing to jai.s@somaiya.edu and I will update the repo.
 
 
 - I was given 120 minutes to solve the the following questions.    
