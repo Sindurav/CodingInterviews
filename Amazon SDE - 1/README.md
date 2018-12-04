@@ -8,15 +8,15 @@ The assessment consists of these components:
 - a feedback survey (5 min)
    
 I am not disclosing the exact questions due to NDA.   
-My code has passed all the test cases of Amazon amcat.
+My code has passed all the test cases of Amazon amcat.   
 The code provided over here is not exactly the same code that I submitted because I have rewritten the code.  
 I assure that the solution provided is correct.  
+You will get questions similar to these.  
 
 
+## 1. Closest Pair of Points
 
-## 1. Nearest delivery stations
-
-- Given an array of points in 2d space and a goal point, write a function that returns the top k closest points to the goal point. 
+- We are given an array of n points in the plane, and the problem is to find out the top k closest pair of points in the array.
 
 ## 2. Shortest Path
 

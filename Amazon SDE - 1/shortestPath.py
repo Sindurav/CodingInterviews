@@ -1,3 +1,9 @@
+# Time complexity = O(m*n)
+# Space complexity = O(m*n)
+# Use BFS
+# You can optimize the space complexity to O(1) if you change the values of the matrix
+# A better tome efficient solution is Dijkstra's Algorithm
+
 from collections import deque
 
 
