@@ -141,4 +141,11 @@
 </tr>
 
 
+<tr>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/HARMAN%20International%20Software%20Engineer%202019" target="_blank"> Harman International </a> </td>
+	<td> Software Engineer - Big Data </td>
+	<td> Aug 2018 </td>
+	<td> Round-1: Coding Phone Interview</td>
+</tr>
+
 </table>
