@@ -14,7 +14,7 @@
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Akuna%20Capital%20Junior%20Python%20Developer" target="_blank"> Akuna Capital </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Amazon%20SDE%20-%201" target="_blank"> Amazon </a> </td>
 	<td> SDE - 1</td>
 	<td> Dec 2018 </td>
 	<td> Amazon amcat</td>
@@ -142,7 +142,7 @@
 
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/HARMAN%20International%20Software%20Engineer%202019" target="_blank"> Harman International </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Jet.com%20(walmart%20company)%20Software%20Engineer%20-%20Big%20Data" target="_blank"> Jet.com (Walmart Company) </a> </td>
 	<td> Software Engineer - Big Data </td>
 	<td> Aug 2018 </td>
 	<td> Round-1: Coding Phone Interview</td>
