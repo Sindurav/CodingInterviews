@@ -1,4 +1,5 @@
-# Time complexity = O(m*n)
+# Time complexity = O(m*n) ==> if we ignore the list concatenation operation
+# You can optimize list concatenation operation by using a linked list
 # Space complexity = O(m*n)
 # Use BFS
 # You can optimize the space complexity to O(1) if you change the values of the matrix
