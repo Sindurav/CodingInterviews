@@ -1,3 +1,9 @@
+# Naive solution will involve four loops with time complexity of O(n^4)
+# Sorting is the key here to improve the time complexity
+# Time Complexity = O(n^3)
+# Space Complexity = O(1)
+
+
 def fourSum(arr, s):
     arr = [[i, arr[i]] for i in range(len(arr))]
     arr = sorted(arr, key=lambda x:x[1])
