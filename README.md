@@ -14,6 +14,13 @@
 </tr>
 
 <tr>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Amazon%20SDE%20-%201" target="_blank"> Wayfair </a> </td>
+	<td> Software Engineer 2019</td>
+	<td> Jan 2019 </td>
+	<td colspan="2"> Round-1 Codility Online Assessment, <br> Round-2 HR Phone Interview</td>
+</tr>
+
+<tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Amazon%20SDE%20-%201" target="_blank"> Amazon </a> </td>
 	<td> SDE - 1</td>
 	<td> Dec 2018 </td>
