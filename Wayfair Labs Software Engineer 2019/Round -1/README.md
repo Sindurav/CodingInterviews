@@ -52,8 +52,8 @@ For example, consider array `A` such that:
 
 The shape specified by this array is represented by the figure below.  
 
-[image2]: ./images/q2f1.JPG "q2f1"
-![q2f1][image2]  
+[image1]: ./images/q2f1.JPG "q2f1"
+![q2f1][image1]  
 
 
 [image2]: ./images/q2f2.JPG "q2f2"
