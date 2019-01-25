@@ -159,7 +159,8 @@
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/BitGo%20Software%20Test%20Engineer" target="_blank"> BitGo </a> </td>
 	<td> Software Test Engineer </td>
 	<td> July 2018 </td>
-	<td> Hackerrank Online Assessment </td>
+	<td colspan="2"> Round-1 Hackerrank Online Assessment, <br> Round-2 HR Phone Interview, <br> Round-3 Technical Phone Interview</td>
+
 </tr>
 
 </table>
