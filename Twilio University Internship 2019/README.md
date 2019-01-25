@@ -27,29 +27,29 @@ Constraints:
  
 
 Input
-		Sample Input 0:
-		6
-		1
-		3
-		46
-		1
-		3
-		9
-		47
-		
-		Sample Output 0:
-		1
-		
-		Explanation 0:
-		a = [1, 3, 46, 1, 3, 9]
-		There are 4 pairs of unique elements where a[i]+a[j] = k:
-		
-		1. (a[0] = 1, a[2] = 46)
-		2. (a[2] = 46, a[0] = 1)
-		3. (a[2] = 46, a[3] = 1)
-		4. (a[3] = 1, a[2] = 46)
-		In the list above, all four pairs contain the same values.  
-		We only have 1 distinct pair (1, 46).
+	Sample Input 0:
+	6
+	1
+	3
+	46
+	1
+	3
+	9
+	47
+	
+	Sample Output 0:
+	1
+	
+	Explanation 0:
+	a = [1, 3, 46, 1, 3, 9]
+	There are 4 pairs of unique elements where a[i]+a[j] = k:
+	
+	1. (a[0] = 1, a[2] = 46)
+	2. (a[2] = 46, a[0] = 1)
+	3. (a[2] = 46, a[3] = 1)
+	4. (a[3] = 1, a[2] = 46)
+	In the list above, all four pairs contain the same values.  
+	We only have 1 distinct pair (1, 46).
 
 
 ## 2. Stock Analysis
