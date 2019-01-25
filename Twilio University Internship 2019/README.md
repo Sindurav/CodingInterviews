@@ -25,6 +25,12 @@ Constraints:
 - 0 <= a[i] <= 10^9
 - 0 <= k <= 5 x 10^9 
  
+Input Format for Custom Testing  
+
+- The first line contains an integer n, the size of the array a.  
+- The next n lines each contain an element a[i] where 0 <= i < n.  
+- The next line contains an integer k, the target value.  
+
 
 Input
 	Sample Input 0:
@@ -82,6 +88,16 @@ Constraints:
  - 1 <= n < 100
  - 1 <= p < 1000
  
+ 
+Input Format for Custom Testing  
+
+- The first line contains a positive integer n, the number of sources.  
+- The next line contains a positive integer p, denoting the number of parameters of each source.    
+- Each of the next n lines contains an array of p space-separated strings of formate key:value, denoting the key and value of source[i] parameters.  
+
+ 
+Input  
+ 
 		Sample Input 0:
 		2
 		3
@@ -126,5 +142,27 @@ Constraints:
  - 1 <= k <= 100
  - 1 <= nums[i] <= 10^4
  
+ 
+Input Format for Custom Testing  
 
+- The first line contains an integer k, the number the sum of the subsequence must be divisible by.  
+- The next line contains an integer n, that denotes the number of elements in nums.      
+- Each line `i` of the `n` subsequent lines (where 0 <= i < n) contains an integer that describes nums[i].   
+
+ 
+Input 
+		Sample Input 0:
+		3
+		5
+		1
+		2
+		3
+		4
+		1
 		
+		Sample Output 0:
+		4
+		
+		Explanation 0:
+		The 4 contiguous subsequences of nums having sums that are evenly divisible be k = 3 are;
+		{3}, {1, 2}, {1, 2, 3}, {2, 3, 4}
