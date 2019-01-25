@@ -98,24 +98,24 @@ Input Format for Custom Testing
  
 Input  
  
-		Sample Input 0:
-		2
-		3
-		P1:a P3:b P5:x
-		P1:b P2:q P5:x
+	Sample Input 0:
+	2
+	3
+	P1:a P3:b P5:x
+	P1:b P2:q P5:x
 
-		Sample Output 0:
-		b
-		b
-		x
-		q
-		
-		Explanation 0:
-		Final parameter list:
-		- P1 b (Source 2)
-		- P3 b (Source 1)
-		- P5 x (Source 2)
-		- P2 q (Source 2)  
+	Sample Output 0:
+	b
+	b
+	x
+	q
+	
+	Explanation 0:
+	Final parameter list:
+	- P1 b (Source 2)
+	- P3 b (Source 1)
+	- P5 x (Source 2)
+	- P2 q (Source 2)  
 		
 ## 3. K-Subsequences
 -----		
@@ -150,19 +150,20 @@ Input Format for Custom Testing
 - Each line `i` of the `n` subsequent lines (where 0 <= i < n) contains an integer that describes nums[i].   
 
  
-Input 
-		Sample Input 0:
-		3
-		5
-		1
-		2
-		3
-		4
-		1
-		
-		Sample Output 0:
-		4
-		
-		Explanation 0:
-		The 4 contiguous subsequences of nums having sums that are evenly divisible be k = 3 are;
-		{3}, {1, 2}, {1, 2, 3}, {2, 3, 4}
+Input   
+
+	Sample Input 0:
+	3
+	5
+	1
+	2
+	3
+	4
+	1
+	
+	Sample Output 0:
+	4
+	
+	Explanation 0:
+	The 4 contiguous subsequences of nums having sums that are evenly divisible be k = 3 are;
+	{3}, {1, 2}, {1, 2, 3}, {2, 3, 4}
