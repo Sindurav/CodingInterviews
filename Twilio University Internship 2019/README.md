@@ -165,5 +165,5 @@ Input
 	4
 	
 	Explanation 0:
-	The 4 contiguous subsequences of nums having sums that are evenly divisible be k = 3 are;
+	The 4 contiguous subsequences of nums having sums that are evenly divisible be k = 3 are:
 	{3}, {1, 2}, {1, 2, 3}, {2, 3, 4}
