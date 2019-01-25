@@ -14,7 +14,7 @@
 </tr>
 
 <tr>
-	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Wayfair%20Labs%20Software%20Engineer%202019" target="_blank"> Wayfair </a> </td>
+	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Wayfair%20Labs%20Software%20Engineer%202019" target="_blank"> Wayfair Labs</a> </td>
 	<td> Software Engineer 2019</td>
 	<td> Jan 2019 </td>
 	<td colspan="2"> Round-1 Codility Online Assessment, <br> Round-2 HR Phone Interview</td>
