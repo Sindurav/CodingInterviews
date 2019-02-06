@@ -9,7 +9,8 @@ Your task is to compute the Pearson product moment correlation coefficient betwe
 This data is based on the records of the CBSE K-12 Exam, a national school leaving exam in India, for year 2013.   
 
 Pearson product-moment correlation coefficient:  
-This is a measure of linear correlation between data series:  
+This is a measure of linear correlation between data series:     
+
 [image1]: ./images/Correlation.JPG "Correlation"
 ![Correlation][image1]
 
