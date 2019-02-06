@@ -11,7 +11,7 @@ This data is based on the records of the CBSE K-12 Exam, a national school leavi
 Pearson product-moment correlation coefficient:  
 This is a measure of linear correlation between data series:     
 
-[image1]: ./images/Correlation.JPG "Correlation"
+[image1]: ./Images/Correlation.JPG "Correlation"
 ![Correlation][image1]
 
 
