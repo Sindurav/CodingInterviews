@@ -3,24 +3,31 @@
 
 ## 1. Computing the Correlation
 -----
-You are given  the scores of **N** students in three different subjects, Maths, Physics, and Chemistry.
-All three are graded on a scale of 0 to 100.
-Your task is to compute the Pearson product moment correlation coefficient between the scores of different pairs of subject.This data is based on the records of the CBSE K-12 Exam, a national school leaving exam in India, for year 2013.
+You are given  the scores of **N** students in three different subjects, Maths, Physics, and Chemistry.   
+All three are graded on a scale of 0 to 100.   
+Your task is to compute the Pearson product moment correlation coefficient between the scores of different pairs of subject.   
+This data is based on the records of the CBSE K-12 Exam, a national school leaving exam in India, for year 2013.   
 
-Input Format:
+Pearson product-moment correlation coefficient:  
+This is a measure of linear correlation between data series:  
+[image1]: ./Images/Correlation.JPG "Correlation"
+![Correlation][image1]
+
+
+Input Format:   
 The first row contains an integer **N**.
-This is followed by **N** rows containing three space-separated integers ** M, P, C** corresponding to a candidate's scores in Maths, Physics, Chemistry.
+This is followed by **N** rows containing three space-separated integers **M, P, C** corresponding to a candidate's scores in Maths, Physics, Chemistry.   
 Each row contains to the scores obtained in these three subjects by one students.
 
-Input Constraints:
-- 1 <= N <= 500000
-- 0 <= M, P, C <= 100
+Input Constraints:    
+- 1 <= N <= 500000    
+- 0 <= M, P, C <= 100   
 
-Output Format:
-The output should contain three lines, with correlation coefficients computed and rounded **off to exactly 2 decimal places.**
-The first line should contain the correlation coefficient between Maths and Physics scores.
-The second line should contain the correlation coefficient between Physics and Chemistry scores.
-The third line should contain the correlation coefficient between Chemistry and Maths scores.
+Output Format:   
+The output should contain three lines, with correlation coefficients computed and rounded **off to exactly 2 decimal places.**   
+The first line should contain the correlation coefficient between Maths and Physics scores.   
+The second line should contain the correlation coefficient between Physics and Chemistry scores.   
+The third line should contain the correlation coefficient between Chemistry and Maths scores.   
 
 
 
