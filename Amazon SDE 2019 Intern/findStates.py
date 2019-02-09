@@ -10,3 +10,7 @@ def cellCompete(states, days):
                 new_states[idx] = 0
         states = new_states
     return new_states[1:len(states)-1]
+
+
+print(cellCompete([1, 0, 1, 1, 0, 1, 0], 3))
+print(cellCompete([0, 0, 1, 0, 0, 1, 1], 5))

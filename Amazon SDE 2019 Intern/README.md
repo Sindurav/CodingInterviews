@@ -18,14 +18,30 @@ The assessment consists of these components:
 Write an algorithm to output state of the cells after the given number of days.  
 
 Input:  
-
 The input to the function consists of two arguments:  
 	state: a list of integers representing the current state of cells. 
 	days: an integer representing the number of days.  
 	
 Output:  
-
 Return a list of integers representing the state of cells after the given number of days.  
+
+Sample Input:
+
+	Testcase 1:
+	Input: 
+	[1, 0, 1, 1, 0, 1, 0],
+	3
+	
+	Expected Return Value:
+	[1, 1, 0, 0, 0, 1, 1]
+
+	Testcase 2:
+	Input: 
+	[0, 0, 1, 0, 0, 1, 1], 
+	5
+	
+	Expected Return Value:
+	[1, 0, 1, 0, 1, 0, 1]
 
 
 
@@ -35,16 +51,29 @@ Return a list of integers representing the state of cells after the given number
 - write an algorithm to determine the GCD of `N` positive integers.  
 
 Input:   
-
 The input to the function consists of two arguments:
 	num: an integer representing the number of positive integers(N).
 	arr: a list of positive integers.
 	
 Output:  
-
 Return an integer representing the GCD of the given positive integers.  
 
+Sample Input:
 
+	Testcase 1:
+	Input:
+	5, 
+	[2, 3, 4, 5, 6]
 	
+	Expected Return Value:
+	1
+
+	Testcase 2:
+	Input:
+	5, 
+	[2, 4, 6, 8, 10]
+	
+	Expected Return Value:
+	2
 
 
