@@ -9,3 +9,6 @@ def generalizedGCD(num, arr):
         else:
             return i
     return 1
+
+
+print(generalizedGCD(5, [2, 4, 6, 8, 10]))
