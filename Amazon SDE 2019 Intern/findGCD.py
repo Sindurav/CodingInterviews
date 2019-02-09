@@ -3,8 +3,8 @@ def generalizedGCD(num, arr):
     mini = min(arr)
 
     for i in range(mini, -1, -1):
-        for num in arr:
-            if (num % i) != 0:
+        for number in arr:
+            if (number % i) != 0:
                 break
         else:
             return i
