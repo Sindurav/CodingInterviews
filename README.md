@@ -53,14 +53,14 @@
 
 <tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Amazon%20SDE%20-%201" target="_blank"> Amazon </a> </td>
-	<td> SDE - 1 - FBA team</td>
+	<td> SDE-1-FBA team</td>
 	<td> Dec 2018 </td>
 	<td> Amazon amcat</td>
 </tr>
 
 <tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Akuna%20Capital%20Junior%20Python%20Developer" target="_blank"> Akuna Capital </a> </td>
-	<td> Junior Python Developer</td>
+	<td> Jr. Python Developer</td>
 	<td> Nov 2018 </td>
 	<td> Hackerrank Online Assessment </td>
 </tr>
