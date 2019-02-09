@@ -46,16 +46,16 @@
 
 <tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Wayfair%20Labs%20Software%20Engineer%202019" target="_blank"> Wayfair Labs</a> </td>
-	<td> Software Engineer 2019</td>
+	<td> Software Engineer 2019 </td>
 	<td> Jan 2019 </td>
 	<td colspan="2"> Round-1 Codility Online Assessment, <br> Round-2 HR Phone Interview</td>
 </tr>
 
 <tr>
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Amazon%20SDE%20-%201" target="_blank"> Amazon </a> </td>
-	<td> SDE-1-FBA team</td>
+	<td> SDE-1-FBA team </td>
 	<td> Dec 2018 </td>
-	<td> Amazon amcat</td>
+	<td> Amcat Online Assessment</td>
 </tr>
 
 <tr>
