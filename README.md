@@ -48,7 +48,7 @@
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Wayfair%20Labs%20Software%20Engineer%202019" target="_blank"> Wayfair Labs</a> </td>
 	<td> Software Engineer 2019 </td>
 	<td> Jan 2019 </td>
-	<td colspan="2"> Round-1 Codility Online Assessment, <br> Round-2 HR Phone Interview</td>
+	<td colspan="2"> Round-1 Online Assessment, <br> Round-2 HR Phone Interview</td>
 </tr>
 
 <tr>
@@ -69,7 +69,7 @@
 	<td> <a href="https://github.com/jayshah19949596/CodingInterviews/tree/master/Guidewire%20Backend%20Software%20Engineer%20Entry%20Level" target="_blank"> Guidewire </a> </td>
 	<td> Backend Software Engineer Entry Level</td>
 	<td> Nov 2018 </td>
-	<td colspan="2"> Round-1 Technical Phone Interview, <br> Round-2 Codility Assessment</td>
+	<td colspan="2"> Round-1 Technical Phone Interview, <br> Round-2 Online Assessment</td>
 </tr>
 
 <tr>
