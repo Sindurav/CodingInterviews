@@ -1,9 +1,9 @@
 ## Interview Description
 ----
 
-## Round 1 (Codility Online Assessment)
+## Round 1 (Online Assessment)
 ---
-- 1st round was codility round.
+- 1st round was online round.
 - I got 3 coding questions which I had to solve in 130 minutes.
 
 1. Bug fix question. You will be given code in a language of your choice and a spec. From there you’ll be asked to find and fix the bug(s) in the code.  

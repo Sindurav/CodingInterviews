@@ -1,4 +1,4 @@
-# Codility Assessment (130 minutes)
+# Assessment (130 minutes)
 
 ## 1. Bug fix question
 -----  
